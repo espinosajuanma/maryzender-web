@@ -71,16 +71,16 @@
                         const formattedAuthors = pub.authors.replace(/_([^_]+)_/g, '<span class="highlight-blue">$1</span>');
 
                         const pubElement = document.createElement('div');
-                        pubElement.className = 'paper bg-white mb-4';
+                        pubElement.className = 'row align-items-center mb-5';
                         pubElement.innerHTML = `
-                            <div class="tag bg-moss fit typewriting" style="position: absolute; top: -15px; left: 15px; margin: 0; z-index: 1;">${pubCounter.toString().padStart(2, '0')}</div>
-                            <div class="row align-items-center">
-                                <div class="col-md-3 text-center mb-3 mb-md-0">
-                                    <a href="${pub.doi}" target="_blank" style="box-shadow: none;">
-                                        <img src="${pub.image}" class="img-fluid img-shadow" style="max-height: 180px; border-radius: 5px;" alt="Publication image for ${pub.title}">
-                                    </a>
-                                </div>
-                                <div class="col-md-9">
+                            <div class="col-md-3 text-center mb-3 mb-md-0">
+                                <a href="${pub.doi}" target="_blank" style="box-shadow: none; position: relative; display: inline-block;">
+                                    <div class="tag bg-moss fit typewriting" style="position: absolute; top: -15px; left: 0; margin: 0; z-index: 1;">${pubCounter.toString().padStart(2, '0')}</div>
+                                    <img src="${pub.image}" class="img-fluid img-shadow" style="max-height: 180px; border-radius: 5px;" alt="Publication image for ${pub.title}">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="paper bg-white" style="padding: 1rem;">
                                     <h5 class="typewriting" style="font-size: 1.1rem;">${pub.title}</h5>
                                     <p class="mb-1"><strong>Authors:</strong> ${formattedAuthors}</p>
                                     <p class="mb-1"><i>${pub.journal}</i></p>
