@@ -30,9 +30,9 @@ p {
 }
 
 hr {
-    border: 0;
-    border-top: 2px dashed black;
-    margin: 1em 0;
+    border: 0 !important;
+    border-top: 2px dashed black !important;
+    margin: 1em 0 !important;
 }
 
 .container {
@@ -95,7 +95,7 @@ hr {
 }
 
 .bg-hueso {
-    background-color: var(--hueso);
+    background-color: var(--bone);
 }
 
 .paper,.tag,a {
@@ -171,6 +171,27 @@ a:hover {
   user-select: none;
 }
 
+.profile-image-wrapper {
+    position: relative;
+    margin: 0;
+    display: inline-block;
+}
+
+.profile-image-wrapper .paper {
+    padding: 0;
+    display: block;
+}
+
+.profile-name-tag {
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    transform: translateX(-45%);
+}
+
+.project-intro {
+    max-width: 400px;
+}
 /* Nav */
 
 nav {
