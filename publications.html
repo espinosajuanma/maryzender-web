@@ -54,10 +54,26 @@
                     const container = document.getElementById('publications-list');
                     if (!container) return;
 
+                    const totalPubs = data.length;
+                    let pubCounter = totalPubs;
+                    let currentYear = null;
+
                     data.forEach(pub => {
+                        const year = new Date(pub.date).getFullYear();
+                        if (year !== currentYear) {
+                            currentYear = year;
+                            const yearElement = document.createElement('div');
+                            yearElement.className = 'tag bg-terracotta typewriting title2 fit my-4';
+                            yearElement.textContent = year;
+                            container.appendChild(yearElement);
+                        }
+
+                        const formattedAuthors = pub.authors.replace(/_([^_]+)_/g, '<span class="highlight-blue">$1</span>');
+
                         const pubElement = document.createElement('div');
                         pubElement.className = 'paper bg-white mb-4';
                         pubElement.innerHTML = `
+                            <div class="tag bg-moss fit typewriting" style="position: absolute; top: -15px; left: 15px; margin: 0; z-index: 1;">${pubCounter.toString().padStart(2, '0')}</div>
                             <div class="row align-items-center">
                                 <div class="col-md-3 text-center mb-3 mb-md-0">
                                     <a href="${pub.doi}" target="_blank" style="box-shadow: none;">
@@ -66,14 +82,15 @@
                                 </div>
                                 <div class="col-md-9">
                                     <h5 class="typewriting" style="font-size: 1.1rem;">${pub.title}</h5>
-                                    <p class="mb-1"><strong>Authors:</strong> ${pub.authors}</p>
-                                    <p class="mb-1"><em>${pub.journal}</em></p>
+                                    <p class="mb-1"><strong>Authors:</strong> ${formattedAuthors}</p>
+                                    <p class="mb-1"><i>${pub.journal}</i></p>
                                     <p class="mb-2"><strong>Date:</strong> ${pub.date}</p>
                                     <a href="${pub.doi}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
                                 </div>
                             </div>
                         `;
                         container.appendChild(pubElement);
+                        pubCounter--;
                     });
                 })
                 .catch(error => {
