@@ -28,7 +28,60 @@
         <hr>
         </header>
         <main>
+            <div id="publications-list" class="my-4">
+                <!-- Publications will be loaded here by script -->
+            </div>
        </main>
+
+        <footer>
+            <div class="paper bg-white">maryzender.com © 2025 by Maryzender Rodríguez Melgarejo is licensed under CC BY 4.0</div>
+            <div class="d-flex justify-content-end">
+                <p>Designed by <a class="bg-moss" href="https://linkedin.com/in/espinosajuanma" target="_blank">Juanma</a></p>
+            </div>
+        </footer>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('/data/publications.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const container = document.getElementById('publications-list');
+                    if (!container) return;
+
+                    data.forEach(pub => {
+                        const pubElement = document.createElement('div');
+                        pubElement.className = 'paper bg-white mb-4';
+                        pubElement.innerHTML = `
+                            <div class="row align-items-center">
+                                <div class="col-md-3 text-center mb-3 mb-md-0">
+                                    <a href="${pub.doi}" target="_blank" style="box-shadow: none;">
+                                        <img src="${pub.image}" class="img-fluid img-shadow" style="max-height: 180px; border-radius: 5px;" alt="Publication image for ${pub.title}">
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5 class="typewriting" style="font-size: 1.1rem;">${pub.title}</h5>
+                                    <p class="mb-1"><strong>Authors:</strong> ${pub.authors}</p>
+                                    <p class="mb-1"><em>${pub.journal}</em></p>
+                                    <p class="mb-2"><strong>Date:</strong> ${pub.date}</p>
+                                    <a href="${pub.doi}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
+                                </div>
+                            </div>
+                        `;
+                        container.appendChild(pubElement);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading publications:', error);
+                    const container = document.getElementById('publications-list');
+                    if(container) container.innerHTML = '<p class="text-center">Could not load publications. Please try again later.</p>';
+                });
+        });
+    </script>
 </body>
 </html>
