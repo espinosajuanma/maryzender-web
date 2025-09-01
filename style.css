@@ -172,6 +172,10 @@ button.tag {
     font-size: 1.5rem;
 }
 
+.text-sm {
+    font-size: 0.85rem;
+}
+
 .unselectable {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -226,7 +230,7 @@ textarea.paper.form-input {
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 nav > #menu {
@@ -236,7 +240,18 @@ nav > #menu {
 }
 
 nav > #logo {
-    font-weight: 700;
     font-size: 1.5rem;
     /* Make it unselectable */
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav > #menu {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
