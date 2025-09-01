@@ -24,6 +24,12 @@
             <div class="tag bg-moss typewriting title2 fit">
                 Publications
             </div>
+
+            <div id="alert" class="paper bg-white fit">
+                <p>Please contact me for copies of any of my publications</p>
+                <p><a class="tag bg-terracotta typewriting fit" href="/contact.html">Contact me</a></p>
+            </div>
+
             <div id="publications-list" class="my-4">
                 <!-- Publications will be loaded here by script -->
             </div>
@@ -85,10 +91,8 @@
                         pubElement.className = 'row align-items-center mb-5';
                         pubElement.innerHTML = `
                             <div class="col-md-3 text-center mb-3 mb-md-0">
-                                <a href="${pub.doi}" target="_blank" style="box-shadow: none; position: relative; display: inline-block;">
-                                    <!-- <div class="tag bg-moss fit typewriting" style="position: absolute; top: -15px; left: 0; margin: 0; z-index: 1;">${pubCounter.toString().padStart(2, '0')}</div> -->
-                                    <img src="${pub.image}" class="img-fluid paper-shadow" style="max-height: 180px;" alt="Publication image for ${pub.title}">
-                                </a>
+                                <!-- <div class="tag bg-moss fit typewriting" style="position: absolute; top: -15px; left: 0; margin: 0; z-index: 1;">${pubCounter.toString().padStart(2, '0')}</div> -->
+                                <img src="${pub.image}" class="img-fluid paper-shadow" style="max-height: 180px;" alt="Publication image for ${pub.title}">
                             </div>
                             <div class="col-md-9">
                                 <div class="paper bg-white" style="padding: 1rem;">
