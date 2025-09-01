@@ -150,6 +150,10 @@ hr {
     filter: drop-shadow(3px 2px 4px rgba(0, 0, 0, 0.6));
 }
 
+.paper-shadow {
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
 a {
     text-decoration: none !important;
     color: black !important;
@@ -158,6 +162,10 @@ a {
 a:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+button.tag {
+    border: none;
 }
 
 .title2 {
@@ -191,6 +199,27 @@ a:hover {
 
 .project-intro {
     max-width: 400px;
+}
+
+/* Form inputs styling */
+.form-input {
+    width: 100%;
+    margin: 0 0 1rem 0 !important; /* override the margin from .tag/.paper */
+    border: none;
+}
+
+input.tag.form-input::before {
+    content: none;
+}
+
+textarea.paper.form-input {
+    resize: vertical;
+    padding: 1rem !important;
+}
+
+.form-input:focus {
+    outline: none;
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5); /* Override browser's default focus shadow/outline */
 }
 /* Nav */
 
