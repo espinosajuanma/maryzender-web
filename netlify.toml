@@ -1,3 +1,8 @@
 [build]
-  command = "bash build.sh"
-  publish = "dist"
+  base = "src" 
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.152.2"
+  TZ = "America/Lima"

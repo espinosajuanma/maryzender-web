@@ -1,0 +1,74 @@
+{{ define "main" }}
+    <div class="tag bg-moss typewriting title2 fit">
+        {{ .Title }}
+    </div>
+
+    <div id="alert" class="paper bg-white fit">
+        <p>Please contact me for copies of any of my publications</p>
+        <p><a class="tag bg-terracotta typewriting fit" href="/contact">Contact me</a></p>
+    </div>
+
+    <div id="publications-list" class="my-4">
+        
+        {{ $pages := .Pages.ByDate.Reverse }}
+        {{ $counter := len $pages }}
+        
+        {{ range $index, $element := $pages }}
+            
+            {{ $currentYear := .Date.Format "2006" }}
+            {{ $prevYear := "" }}
+            {{ if gt $index 0 }}
+                {{ $prevPage := index $pages (sub $index 1) }}
+                {{ $prevYear = $prevPage.Date.Format "2006" }}
+            {{ end }}
+
+            {{ if or (eq $index 0) (ne $currentYear $prevYear) }}
+                <div class="tag bg-terracotta typewriting title2 fit my-4">
+                    {{ $currentYear }}
+                </div>
+            {{ end }}
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    {{ with .Params.image }}
+                    <img src="{{ . }}" class="img-fluid paper-shadow" style="max-height: 180px;" alt="Publication image for {{ $element.Title }}">
+                    {{ end }}
+                </div>
+                <div class="col-md-9">
+                    <div class="paper bg-white" style="padding: 1rem;">
+                        <h5 class="typewriting" style="font-size: 1.1rem;">
+                            <span>{{ printf "%02d" $counter }}.</span> {{ .Title }}
+                        </h5>
+                        
+                        <p class="mb-1"><strong>Authors:</strong> 
+                            {{ .Params.authors | replaceRE "_([^_]+)_" "<span class=\"highlight-blue\">$1</span>" | safeHTML }}
+                        </p>
+                        
+                        <p class="mb-1"><strong>Journal:</strong> {{ .Params.journal }}</p>
+                        <p class="mb-2"><strong>Date:</strong> {{ .Date.Format "2006-01-02" }}</p>
+
+                        {{ $link := "" }}
+                        {{ if .Params.doi }}
+                            {{ $link = printf "https://doi.org/%s" .Params.doi }}
+                        {{ else }}
+                            {{ $link = .Params.paper_url }}
+                        {{ end }}
+
+                        {{ with $link }}
+                            <a href="{{ . }}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
+                        {{ end }}
+
+                        {{ if .Params.openAccess }}
+                            <span class="paper bg-moss fit typewriting">Open Access</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
+            {{ $counter = sub $counter 1 }}
+        {{ end }}
+    </div>
+
+    <div class="text-sm d-flex align-items-center justify-content-center flex-wrap my-4"> </div>
+
+{{ end }}
