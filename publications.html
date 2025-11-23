@@ -87,6 +87,11 @@
                         }
 
                         const formattedAuthors = pub.authors.replace(/_([^_]+)_/g, '<span class="highlight-blue">$1</span>');
+                        function getDOIURL(doi) {
+                            if (! doi) return null;
+                            return `https://doi.org/${doi}`;
+                        }
+                        const url = getDOIURL(pub.doi) ?? pub.url;
 
                         const pubElement = document.createElement('div');
                         pubElement.className = 'row align-items-center mb-5';
@@ -101,7 +106,7 @@
                                     <p class="mb-1"><strong>Authors:</strong> ${formattedAuthors}</p>
                                     <p class="mb-1"><strong>Journal:</strong> ${pub.journal}</p>
                                     <p class="mb-2"><strong>Date:</strong> ${pub.date}</p>
-                                    <a href="${pub.doi}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
+                                    <a href="${url}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
                                 </div>
                             </div>
                         `;

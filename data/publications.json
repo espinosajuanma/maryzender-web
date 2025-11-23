@@ -4,7 +4,7 @@
     "authors": "_Rodríguez-Melgarejo, M.E._; Ramírez-Salamanca, J.M. & Chani-Posse, M.R.",
     "journal": "Invertebrate Systematics, 39(11), 1-25.",
     "date": "2025-11-17",
-    "doi": "https://doi.org/10.1071/IS24104",
+    "doi": "10.1071/IS24104",
     "image": "/assets/publications/17-Brachylonthus.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "authors": "Chani-Posse, M.R.; _Rodríguez-Melgarejo, M.E._ & Ramírez-Salamanca, J.M.",
     "journal": "Arthropod Systematics and Phylogeny, 83, 331–352.",
     "date": "2025-07-21",
-    "doi": "https://doi.org/10.3897/asp.83.e150304",
+    "doi": "10.3897/asp.83.e150304",
     "image": "/assets/publications/16. Yuracarus.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "authors": "Chani-Posse, M. & _Rodríguez-Melgarejo, M._",
     "journal": "Zoologischer Anzeiger, 313, 395–416.",
     "date": "2024-11-24",
-    "doi": "https://doi.org/10.1016/j.jcz.2024.11.002",
+    "doi": "10.1016/j.jcz.2024.11.002",
     "image": "/assets/publications/15. Corisantis.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "authors": "_Rodríguez-Melgarejo, M._ & Chani-Posse, M.",
     "journal": "Zootaxa, 5501(2), 345–357.",
     "date": "2024-08-30",
-    "doi": "https://doi.org/10.11646/zootaxa.5501.2.7",
+    "doi": "10.11646/zootaxa.5501.2.7",
     "image": "/assets/publications/14. Leptopeltus.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "authors": "Shaw, J.; _Rodríguez-Melgarejo, M._; Matsumoto, K.; Wasel, S. & Piper, R.",
     "journal": "Zootaxa, 5346(2), 186–196.",
     "date": "2023-09-18",
-    "doi": "https://doi.org/10.11646/zootaxa.5346.2.6",
+    "doi": "10.11646/zootaxa.5346.2.6",
     "image": "/assets/publications/13-Ecitonides.jpg"
   },
   {
@@ -44,7 +44,7 @@
     "authors": "Corahua-Espinoza, T.; Nakahara, S.; Baine, Q.; Kabir, J.; _Rodríguez-Melgarejo, M._; Tejeira, R.; Ccahuana, R.; See, J.;Soto-Quispe, J.; Wood, H.; Escalante, Z. & Gallice, G.",
     "journal": "Neotropical Entomology, 52(1), 67–80.",
     "date": "2022-12-01",
-    "doi": "https://doi.org/10.1007/s13744-022-00998-z",
+    "doi": "10.1007/s13744-022-00998-z",
     "image": "/assets/publications/12-Taygetis-clade.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "authors": "Nakahara, S.; _Rodríguez-Melgarejo, M._, Kleckner, K.; Espeland, M.; Casagrande, M., Barbosa, E.; See, J., Tejeira, R.; Gallice, G., Corahua, T.; Lamas, G. & Willmott, K.",
     "journal": "Insect Systematics and Diversity, 6(1), 21–30.",
     "date": "2022-01-06",
-    "doi": "https://doi.org/10.1093/isd/ixab028",
+    "doi": "10.1093/isd/ixab028",
     "image": "/assets/publications/11-Cisandina.jpg"
   },
   {
@@ -60,7 +60,7 @@
     "authors": "Hurtado, T.; Nakahara, S.; _Rodríguez-Melgarejo, M_; Tejeira, R.; See, J.; Ccahuana, R. & Gallice, G.",
     "journal": "Tropical Lepidoptera Research, 31(3), 179–185.",
     "date": "2021-12-17",
-    "doi": "https://journals.flvc.org/troplep/article/view/130140",
+    "url": "https://journals.flvc.org/troplep/article/view/130140",
     "image": "/assets/publications/10-Leuchochimona.jpg"
   },
   {
@@ -68,7 +68,7 @@
     "authors": "Ccahuana, R.; Corahua-Espinoza, T.; Nakahara, S.; Tejeira, R.; _Rodríguez-Melgarejo, M._ & Gallice, G.",
     "journal": "Tropical Lepidoptera Research, 31(3), 158–165.",
     "date": "2021-12-17",
-    "doi": "https://journals.flvc.org/troplep/article/view/130138",
+    "url": "https://journals.flvc.org/troplep/article/view/130138",
     "image": "/assets/publications/9-Taygetis.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "authors": "Tejeira, R.; Ccahuana, R.; Hurtado, T.; Nakahara S.; See, J.; _Rodríguez-Melgarejo, M._ & Gallice, G.",
     "journal": "Tropical Lepidoptera Research, 31(2), 96–100.",
     "date": "2021-10-29",
-    "doi": "https://journals.flvc.org/troplep/article/view/129729",
+    "url": "https://journals.flvc.org/troplep/article/view/129729",
     "image": "/assets/publications/8-Ebusus.jpg"
   },
   {
@@ -84,7 +84,7 @@
     "authors": "Ccahuana, R.; Tejeira, R. Hurtado, T.; Nakahara S.; _Rodríguez-Melgarejo, M._; Gott, R.; See, J. & Gallice, G.",
     "journal": "Tropical Lepidoptera Research, 31(2), 90–95.",
     "date": "2021-10-29",
-    "doi": "https://journals.flvc.org/troplep/article/view/129728",
+    "url": "https://journals.flvc.org/troplep/article/view/129728",
     "image": "/assets/publications/7-Chloreuptychia.jpg"
   },
   {
@@ -92,7 +92,7 @@
     "authors": "_Rodríguez-Melgarejo, M._ & Chani-Posse, M.",
     "journal": "European Journal of Taxonomy, 735: 15–33.",
     "date": "2021-02-16",
-    "doi": "https://doi.org/10.5852/ejt.2021.735.1237",
+    "doi": "10.5852/ejt.2021.735.1237",
     "image": "/assets/publications/6-Ophionthus.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "authors": "Pérez, L.; _Rodríguez, M._ & Asenjo, A.",
     "journal": "Zootaxa, 4731(4), 581–588.",
     "date": "2020-02-10",
-    "doi": "http://dx.doi.org/10.11646/zootaxa.4731.4.11",
+    "doi": "10.11646/zootaxa.4731.4.11",
     "image": "/assets/publications/5-Megarthrus.jpg"
   },
   {
@@ -108,7 +108,7 @@
     "authors": "_Rodríguez, M._; Asenjo, A. & Pérez, L.",
     "journal": "Zootaxa, 4608 (3), 572–578.",
     "date": "2019-05-21",
-    "doi": "https://doi.org/10.11646/zootaxa.4608.3.10",
+    "doi": "10.11646/zootaxa.4608.3.10",
     "image": "/assets/publications/4-Elmas.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "authors": "Pérez, L.; _Rodríguez, M._ & Asenjo, A.",
     "journal": "Zootaxa, 4459(2), 376–386.",
     "date": "2018-08-15",
-    "doi": "http://dx.doi.org/10.11646/zootaxa.4459.2.10",
+    "doi": "10.11646/zootaxa.4459.2.10",
     "image": "/assets/publications/3-Homalotrichus.jpg"
   },
   {
@@ -124,7 +124,7 @@
     "authors": "Grados, J.; _Rodríguez, M._ & Ramírez, J.",
     "journal": "Revista Peruana de Biología, 24(2), 127–138.",
     "date": "2017-07-21",
-    "doi": "https://doi.org/10.15381/rpb.v24i2.13490",
+    "doi": "10.15381/rpb.v24i2.13490",
     "image": "/assets/publications/2-Cresera.jpg"
   },
   {
@@ -132,7 +132,7 @@
     "authors": "Pérez, L.; _Rodríguez, M._ & Asenjo, A.",
     "journal": "Zootaxa, 4303(3), 417-426.",
     "date": "2017-08-10",
-    "doi": "http://dx.doi.org/10.11646/zootaxa.4303.3.7",
+    "doi": "10.11646/zootaxa.4303.3.7",
     "image": "/assets/publications/1-Piestus.jpg"
   }
 ]
