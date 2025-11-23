@@ -102,11 +102,14 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="paper bg-white" style="padding: 1rem;">
-                                    <h5 class="typewriting" style="font-size: 1.1rem;"><span>${pubCounter.toString().padStart(2, '0')}.</span> ${pub.title}</h5>
+                                    <h5 class="typewriting" style="font-size: 1.1rem;">
+                                        <span>${pubCounter.toString().padStart(2, '0')}.</span> ${pub.title}
+                                    </h5>
                                     <p class="mb-1"><strong>Authors:</strong> ${formattedAuthors}</p>
                                     <p class="mb-1"><strong>Journal:</strong> ${pub.journal}</p>
                                     <p class="mb-2"><strong>Date:</strong> ${pub.date}</p>
                                     <a href="${url}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
+                                    ${pub.openAccess ? '<span class="paper bg-moss fit typewriting">Open Access</span>' : '' }
                                 </div>
                             </div>
                         `;

@@ -13,6 +13,7 @@
     "journal": "Arthropod Systematics and Phylogeny, 83, 331–352.",
     "date": "2025-07-21",
     "doi": "10.3897/asp.83.e150304",
+    "openAccess": true,
     "image": "/assets/publications/16. Yuracarus.jpg"
   },
   {
@@ -53,6 +54,7 @@
     "journal": "Insect Systematics and Diversity, 6(1), 21–30.",
     "date": "2022-01-06",
     "doi": "10.1093/isd/ixab028",
+    "openAccess": true,
     "image": "/assets/publications/11-Cisandina.jpg"
   },
   {
@@ -61,6 +63,7 @@
     "journal": "Tropical Lepidoptera Research, 31(3), 179–185.",
     "date": "2021-12-17",
     "url": "https://journals.flvc.org/troplep/article/view/130140",
+    "openAccess": true,
     "image": "/assets/publications/10-Leuchochimona.jpg"
   },
   {
@@ -69,6 +72,7 @@
     "journal": "Tropical Lepidoptera Research, 31(3), 158–165.",
     "date": "2021-12-17",
     "url": "https://journals.flvc.org/troplep/article/view/130138",
+    "openAccess": true,
     "image": "/assets/publications/9-Taygetis.jpg"
   },
   {
@@ -77,6 +81,7 @@
     "journal": "Tropical Lepidoptera Research, 31(2), 96–100.",
     "date": "2021-10-29",
     "url": "https://journals.flvc.org/troplep/article/view/129729",
+    "openAccess": true,
     "image": "/assets/publications/8-Ebusus.jpg"
   },
   {
@@ -85,6 +90,7 @@
     "journal": "Tropical Lepidoptera Research, 31(2), 90–95.",
     "date": "2021-10-29",
     "url": "https://journals.flvc.org/troplep/article/view/129728",
+    "openAccess": true,
     "image": "/assets/publications/7-Chloreuptychia.jpg"
   },
   {
@@ -93,6 +99,7 @@
     "journal": "European Journal of Taxonomy, 735: 15–33.",
     "date": "2021-02-16",
     "doi": "10.5852/ejt.2021.735.1237",
+    "openAccess": true,
     "image": "/assets/publications/6-Ophionthus.jpg"
   },
   {
@@ -125,6 +132,7 @@
     "journal": "Revista Peruana de Biología, 24(2), 127–138.",
     "date": "2017-07-21",
     "doi": "10.15381/rpb.v24i2.13490",
+    "openAccess": true,
     "image": "/assets/publications/2-Cresera.jpg"
   },
   {
