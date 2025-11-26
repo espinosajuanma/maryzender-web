@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container">
+    <div class="tag bg-moss typewriting title2 fit mb-4">
+        {{ .Title }}
+    </div>
+
+    <div class="list-group">
+        {{ range .Pages }}
+            <div class="paper bg-white mb-4 p-4">
+                <h3><a href="{{ .Permalink }}" class="text-decoration-none text-dark">{{ .Title }}</a></h3>
+                <div class="text-muted mb-2">
+                    {{ .Date.Format "January 2, 2006" }}
+                </div>
+                <div>
+                    {{ .Summary }}
+                </div>
+                <a href="{{ .Permalink }}" class="tag bg-soil fit typewriting mt-2">Read More</a>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

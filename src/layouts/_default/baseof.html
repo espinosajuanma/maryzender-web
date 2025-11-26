@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- DYNAMIC TITLE -->
+    <title>
+        {{- if .IsHome -}}
+            {{ .Site.Title }} | Evolutionary Biologist
+        {{- else -}}
+            {{ .Title }} | {{ .Site.Title }}
+        {{- end -}}
+    </title>
+
+    <!-- DYNAMIC META DESCRIPTION -->
+    {{- $description := "" -}}
+    {{- if .IsHome -}}
+        {{ $description = .Site.Params.description }}
+    {{- else if .Params.description -}}
+        {{ $description = .Params.description }}
+    {{- else -}}
+        {{ $description = .Summary | plainify | truncate 160 }}
+    {{- end -}}
+    <meta name="description" content="{{ $description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="shortcut icon" href="/assets/m-favicon.png" type="image/x-icon">
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="mb-3">
+            <div id="logo">
+                <a href="/" class="tag bg-terracotta typewriting inner-border fit">Maryzender</a>
+            </div>
+
+            <div id="menu">
+                {{ $currentPage := . -}}
+                {{ range .Site.Menus.main -}}
+                {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+                <a class="tag typewriting fit {{ if $isActive }}bg-terracotta{{ else }}bg-white{{ end }}"
+                    href="{{ .URL }}">
+                    {{ .Name }}
+                </a>
+                {{ end -}}
+            </div>
+        </nav>
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        <hr>
+
+        <div class="d-flex align-items-center justify-content-center flex-wrap my-4 text-sm">
+            <a href="https://scholar.google.com/citations?user=MTrNyqAAAAAJ&hl=es" target="_blank"
+                class="tag inner-border bg-mustard fit typewriting">
+                Google Scholar
+            </a>
+            <a href="https://www.researchgate.net/profile/Maryzender-Rodriguez-Melgarejo" target="_blank"
+                class="tag inner-border bg-mustard fit typewriting">
+                ResearchGate
+            </a>
+            <a href="https://orcid.org/0000-0002-3516-4270" target="_blank"
+                class="tag inner-border bg-mustard fit typewriting">
+                ORCID
+            </a>
+            <a href="https://x.com/Maryzender_RM" target="_blank"
+                class="tag inner-border bg-mustard fit typewriting">
+                X
+            </a>
+        </div>
+
+        <footer>
+            <div class="paper bg-white">maryzender.com © 2025 by Maryzender Rodríguez Melgarejo is licensed under CC BY
+                4.0</div>
+            <div class="d-flex justify-content-end">
+                <p>Designed by <a class="bg-moss" href="https://linkedin.com/in/espinosajuanma"
+                        target="_blank">Juanma</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

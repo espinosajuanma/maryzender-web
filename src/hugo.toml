@@ -1,0 +1,49 @@
+baseURL = 'https://maryzender.com/'
+languageCode = 'en-us'
+title = 'Maryzender Rodríguez-Melgarejo'
+
+[params]
+  description = "Academic portfolio of Maryzender Rodríguez-Melgarejo, Ph.D. candidate and Evolutionary Biologist specializing in the systematics and taxonomy of Neotropical Staphylinidae."
+  author = "Maryzender Rodríguez-Melgarejo"
+
+[taxonomies]
+  # Empty block disables default tag/category generation
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 20
+
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 30
+
+[[cascade]]
+  [cascade.build]
+    render = "never"
+    list = "always"
+  [cascade.target]
+    path = "/publications/**"
+    kind = "page"
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffixes = [""]
+    delimiter = ""
+
+[outputFormats]
+  [outputFormats.REDIRECTS]
+    mediaType = "text/netlify"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "REDIRECTS", "RSS"]
