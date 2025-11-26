@@ -2,6 +2,10 @@ baseURL = 'https://maryzender.com/'
 languageCode = 'en-us'
 title = 'Maryzender Rodríguez-Melgarejo'
 
+[params]
+  description = "Academic portfolio of Maryzender Rodríguez-Melgarejo, Ph.D. candidate and Evolutionary Biologist specializing in the systematics and taxonomy of Neotropical Staphylinidae."
+  author = "Maryzender Rodríguez-Melgarejo"
+
 [taxonomies]
   # Empty block disables default tag/category generation
 
@@ -20,7 +24,6 @@ title = 'Maryzender Rodríguez-Melgarejo'
     name = "Contact"
     pageRef = "/contact"
     weight = 30
-
 
 [[cascade]]
   [cascade.build]
