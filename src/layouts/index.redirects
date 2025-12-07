@@ -11,6 +11,3 @@
     {{- printf "\n/%s  %s  301" $slug $target -}}
   {{- end -}}
 {{- end }}
-
-# SPA Fallback
-/* /index.html  200
