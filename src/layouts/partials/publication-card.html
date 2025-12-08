@@ -1,0 +1,31 @@
+<article class="row align-items-center mb-5">
+    <div class="col-md-3 text-center mb-3 mb-md-0">
+        <img src="{{ .Params.image }}" class="img-fluid paper-shadow" style="max-height: 180px;" alt="{{ if .Params.image_alt }}{{ .Params.image_alt }}{{ else }}Publication image for {{ .Title }}{{ end }}">
+    </div>
+    <div class="col-md-9">
+        <div class="paper bg-white" style="padding: 1rem;">
+            <h3 class="typewriting" style="font-size: 1.1rem;">
+                <span>{{ .Scratch.Get "rank" }}.</span> {{ .Title }}
+            </h3>
+            <p class="mb-1"><strong>Authors:</strong> 
+                {{- .Params.authors | replaceRE "_([^_]+)_" "<span class=\"highlight-blue\">$1</span>" | safeHTML -}}
+            </p>
+            <p class="mb-1"><strong>Journal:</strong> {{ .Params.journal }}</p>
+            <p class="mb-2"><strong>Date:</strong>
+                <time datetime="{{- .Date.Format "2006-01-02" -}}">{{- .Date.Format "January 2, 2006" -}}</time>
+            </p>
+            {{- $link := "" -}}
+            {{- if .Params.doi -}}
+                {{ $link = printf "https://doi.org/%s" .Params.doi }}
+            {{- else -}}
+                {{- $link = .Params.paper_url -}}
+            {{- end -}}
+            {{- with $link -}}
+                <a href="{{ . }}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
+            {{- end -}}
+            {{- if .Params.openAccess -}}
+                <span class="paper bg-moss fit typewriting">Open Access</span>
+            {{- end -}}
+        </div>
+    </div>
+</article>
