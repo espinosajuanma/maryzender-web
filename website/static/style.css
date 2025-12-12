@@ -8,24 +8,24 @@
     --paper: #e0dbc8;
     --white: #ffffff;
     --bone: #fdfdfd;
-    --typewriting: 'Special Elite', 'Courier New', Courier, monospace !important;
-    --font: 'Lora', 'Arial', sans-serif !important;
-    --handwriting: 'Homemade Apple', cursive !important;
+    --typewriting: 'Special Elite', 'Courier New', Courier, monospace ;
+    --font: 'Lora', 'Arial', sans-serif;
+    --handwriting: 'Homemade Apple', cursive;
 }
 
 body {
-    font-family: var(--font);
+    font-family: var(--font) !important;
     padding: 0px;
     margin: 0px;
     background-color: var(--paper) !important;
 }
 
 .typewriting {
-    font-family: var(--typewriting);
+    font-family: var(--typewriting) !important;
 }
 
 .handwriting {
-    font-family: var(--handwriting);
+    font-family: var(--handwriting) !important;
 }
 
 p {
