@@ -1,0 +1,39 @@
+---
+title: "Immature stages and new host plant records for three species in the “Taygetis clade” of Euptychiina in southeastern Peru (Lepidoptera: Nymphalidae: Satyrinae)"
+url: "/publications/immature-stages-host-plants-taygetis-clade-euptychiina"
+number: 12
+authors: "Corahua-Espinoza, T.; Nakahara, S.; Baine, Q.; Kabir, J.; _Rodríguez-Melgarejo, M._; Tejeira, R.; Ccahuana, R.; See, J.;Soto-Quispe, J.; Wood, H.; Escalante, Z. & Gallice, G."
+journal: "Neotropical Entomology, 52(1), 67–80."
+date: 2022-12-01
+doi: "10.1007/s13744-022-00998-z"
+image: "/assets/publications/12-Taygetis-clade.jpg"
+highlights:
+  - "Documents life history of Taygetis echo, T. sosis, and P. valentina."
+  - "Taygetis echo larvae feed on herbaceous bamboo Olyra latifolia."
+  - "Taygetis sosis larvae feed on herbaceous bamboo Pariana lunata."
+  - "Pseudodebis valentina utilizes woody bamboo Guadua weberbaueri."
+  - "First reliable descriptions of immatures for T. echo and T. sosis"
+---
+
+#### Introduction
+
+We report here the **immature stages and natural host plants** for three species
+in the so-called "Taygetis clade" of the nymphalid butterfly subtribe
+Euptychiina, ***Taygetis echo*** (Cramer, 1775), ***Taygetis sosis*** Hopffer,
+1874, and ***Pseudodebis valentina*** (Cramer, 1779).
+
+#### Material & Methods
+
+The study was carried out at **Finca Las Piedras** in Madre de Dios department,
+Peru.
+
+#### Results
+
+***Taygetis echo*** was observed utilizing a species of **herbaceous bamboo**,
+***Olyra latifolia*** L. (Poaceae: Bambusoideae: Olyreae), ***T. sosis*** was
+found feeding on another species of herbaceous bamboo, ***Pariana lunata***
+Nees (Poaceae: Bambusoideae: Olyreae), and ***P. valentina*** was found
+utilizing a species of **woody bamboo**, ***Guadua weberbaueri*** Pilg.
+(Poaceae: Bambusoideae: Bambuseae). We describe and provide **photos of the
+immatures and host plants**, as well as **illustrations of the head capsules**
+for each of these three species.

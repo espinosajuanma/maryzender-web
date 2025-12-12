@@ -8,21 +8,24 @@
     --paper: #e0dbc8;
     --white: #ffffff;
     --bone: #fdfdfd;
+    --typewriting: 'Special Elite', 'Courier New', Courier, monospace !important;
+    --font: 'Lora', 'Arial', sans-serif !important;
+    --handwriting: 'Homemade Apple', cursive !important;
 }
 
 body {
-    font-family: 'Lora', 'Arial', sans-serif !important;
+    font-family: var(--font);
     padding: 0px;
     margin: 0px;
     background-color: var(--paper) !important;
 }
 
 .typewriting {
-    font-family: 'Special Elite', 'Courier New', Courier, monospace !important;
+    font-family: var(--typewriting);
 }
 
 .handwriting {
-    font-family: 'Homemade Apple', cursive !important;
+    font-family: var(--handwriting);
 }
 
 p {
@@ -98,7 +101,7 @@ hr {
     background-color: var(--bone);
 }
 
-.paper,.tag,a {
+.paper,.tag {
     padding: 0.5rem;
     box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
     margin: 1rem;
@@ -115,14 +118,19 @@ hr {
     z-index: -1;
 }
 
-.tag::before,a::before {
+.tag::before {
     content: 'ꞏ';
     font-family: 'Lora';
 }
 
-.paper em {
-    background-image: linear-gradient(#BDE0FE, #BDE0FE);
-    font-style: normal;
+.paper h4 {
+    font-size: 1rem;
+    background-color: var(--soil);
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: var(--typewriting);
+    padding: 0.5rem;
 }
 
 .fit {

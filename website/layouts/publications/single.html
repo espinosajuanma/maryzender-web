@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <article class="align-items-center">
+        {{ .Scratch.Set "is_single" true }}
+        {{ partial "publication-card.html" . }}
+
+        {{ if .Params.Highlights }}
+        <div style="margin-bottom: 2rem;">
+            <h3 class="tag bg-moss typewriting fit">Highlights</h3>
+            <div style="padding-left: 2rem;">
+                {{ range .Params.Highlights }}
+                <div class="paper bg-white fit">
+                    {{ . }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+
+        {{ if .Content }}
+        <h3 class="tag bg-moss typewriting fit">Abstract</h3>
+        <div class="paper bg-white">
+            <div class="content-body">
+                {{ .Content }}
+            </div>
+            <div class="mt-4">
+                {{- $link := "" -}}
+                {{- if .Params.doi -}}
+                {{ $link = printf "https://doi.org/%s" .Params.doi }}
+                {{- else -}}
+                {{- $link = .Params.paper_url -}}
+                {{- end -}}
+            </div>
+        </div>
+        {{ end }}
+
+    </article>
+
+    <a href="{{ "/publications/" | relURL }}" class="tag bg-moss fit typewriting mt-4">
+        Back to Publications
+    </a>
+{{ end }}

@@ -8,19 +8,15 @@
         <p><a class="tag bg-terracotta typewriting fit" href="/contact">Contact me</a></p>
     </div>
 
-    {{ $.Scratch.Set "global_counter" (len .Pages) }}
     <div id="publications-list" class="my-4">
         {{- range .Pages.GroupByDate "2006" -}}
-            <h2 class="tag bg-terracotta typewriting title2 fit my-4">
-                {{ .Key }}
-            </h2>
-            {{- range .Pages -}}
-                {{- $current_rank := $.Scratch.Get "global_counter" -}}
-                {{- .Scratch.Set "rank" $current_rank -}}
+        <h2 class="tag bg-terracotta typewriting title2 fit my-4">
+            {{ .Key }}
+        </h2>
+        {{- range .Pages -}}
+                {{ .Scratch.Set "is_single" false }}
 
-                {{- partial "publication-card.html" . -}}
-
-                {{- $.Scratch.Set "global_counter" (sub $current_rank 1) -}}
+                {{- partial "publication-card.html" . false -}}
             {{- end }}
         {{- end }}
     </div>
