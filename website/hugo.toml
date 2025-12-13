@@ -17,12 +17,12 @@ title = 'Maryzender Rodríguez-Melgarejo'
 
   [[menus.main]]
     name = "Publications"
-    pageRef = "/publications"
+    pageRef = "/publications/"
     weight = 20
 
   [[menus.main]]
     name = "Contact"
-    pageRef = "/contact"
+    pageRef = "/contact/"
     weight = 30
 
 [mediaTypes]
