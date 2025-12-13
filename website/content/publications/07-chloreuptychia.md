@@ -1,6 +1,7 @@
 ---
 title: "Immature stages of Chloreuptychia marica (Weymer, 1911) (Lepidoptera: Nymphalidae: Satyrinae: Satyrini)"
-url: "/publications/immature-stages-chloreuptychia-marica"
+description: "Documents the first complete life history for the 'Archeuptychia clade' via Chloreuptychia marica, identifying the bamboo Pariana lunata as its host in Peru."
+url: "/publications/immature-stages-chloreuptychia-marica/"
 number: 7
 date: 2021-10-29
 authors:
@@ -20,8 +21,10 @@ journal:
   startPage: 96
   endPage: 100
 image: "/assets/publications/7-Chloreuptychia.jpg"
-paper_url: "https://journals.flvc.org/troplep/article/view/129729"
+paperUrl: "https://journals.flvc.org/troplep/article/view/129729"
 openAccess: true
+taxaNames:
+  - chloreuptychia
 highlights:
   - "Documents the complete life cycle of ***Chloreuptychia marica*** for the first time."
   - "Identifies ***Pariana lunata*** (Poaceae) as the natural host plant in Peru."

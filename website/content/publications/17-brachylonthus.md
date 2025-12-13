@@ -1,6 +1,7 @@
 ---
 title: "Integrative systematics reveals new brachypterous genera and sheds light on hind wing evolution in the neotropical lineage of Philonthina (Coleoptera: Staphylinidae)"
-url: "/publications/integrative-systematics-philonthina-brachylonthus-andinolonthus-wing-evolution"
+description: "Describes the new brachypterous genera Andinolonthus and Brachylonthus, revealing a dynamic history of flight loss and regain in the Andean Philonthina lineage."
+url: "/publications/new-genera-andinolonthus-brachylonthus-wing-evolution/"
 number: 17
 date: 2025-11-17
 featured: true
@@ -19,6 +20,9 @@ journal:
 doi: "10.1071/IS24104"
 image: "/assets/publications/17-Brachylonthus.jpg"
 openAccess: false
+taxaNames:
+  - brachylonthus
+  - andinolonthus
 highlights:
   - "Two new flightless rove beetle genera are described: ***Andinolonthus*** and ***Brachylonthus***."
   - "Analysis reveals flight was lost and subsequently regained."

@@ -1,6 +1,7 @@
 ---
 title: "Systematic revision of a new butterfly genus, Cisandina Nakahara & Espeland, n. gen., with descriptions of three new taxa (Lepidoptera: Nymphalidae: Satyrinae)"
-url: "/publications/systematic-revision-cisandina-butterfly-genus"
+description: "Establishes the new genus Cisandina to resolve polyphyly in Magneuptychia, describing two new species, C. esmeralda and C. castanya, validated by multi-locus phylogeny."
+url: "/publications/systematic-revision-genus-cisandina/"
 number: 11
 date: 2022-01-06
 authors:
@@ -27,6 +28,8 @@ journal:
 image: "/assets/publications/11-Cisandina.jpg"
 doi: "10.1093/isd/ixab028"
 openAccess: true
+taxaNames:
+  - cisandina
 highlights:
   - "Establishes ***Cisandina***, a new butterfly genus in subtribe Euptychiina."
   - "Describes two new species: ***Cisandina esmeralda*** and ***C. castanya***."

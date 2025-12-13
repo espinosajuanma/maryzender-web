@@ -1,6 +1,7 @@
 ---
 title: "On the rare Neotropical genus Ophionthus Bernhauer (Coleoptera: Staphylinidae: Staphylininae): Redescription of the type species and description of a new species"
-url: "/publications/redescription-new-species-ophionthus-neotropical"
+description: "Redescribes the rare genus Ophionthus, adds O. asenjoi sp. nov. from Northern Peru, and validates its phylogenetic position within the Neotropical Philonthina."
+url: "/publications/neotropical-genus-ophionthus-redescription/"
 number: 6
 date: 2021-02-16
 authors:
@@ -17,6 +18,8 @@ journal:
 image: "/assets/publications/6-Ophionthus.jpg"
 doi: "10.5852/ejt.2021.735.1237"
 openAccess: true
+taxaNames:
+  - ophionthus
 highlights:
   - "Redescribes the rare genus ***Ophionthus*** and type species ***O. serpentinus***."
   - "***Ophionthus asenjoi*** sp. nov. is described from Northern Peru."

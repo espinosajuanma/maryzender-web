@@ -1,6 +1,7 @@
 ---
 title: "Systematics and phylogeny of the Andean genera Konradus Chani-Posse & Ramírez-Salamanca and Yuracarus gen. nov. (Coleoptera: Staphylinidae)"
-url: "/publications/systematics-phylogeny-konradus-yuracarus"
+description: "Revises Konradus and establishes Yuracarus gen. nov., describing five new high-Andean species and transferring two 'false Philonthus' to define a new systematic clade."
+url: "/publications/systematics-phylogeny-konradus-yuracarus/"
 number: 16
 date: 2025-07-21
 featured: true
@@ -18,6 +19,9 @@ journal:
 image: "/assets/publications/16. Yuracarus.jpg"
 doi: "10.3897/asp.83.e150304"
 openAccess: true
+taxaNames:
+  - konradus
+  - yuracarus
 highlights:
   - "The Andean genus ***Konradus*** is revised and ***Yuracarus*** gen. nov. is described."
   - "Five new species are described from the high Andes of Ecuador, Peru, and Bolivia."

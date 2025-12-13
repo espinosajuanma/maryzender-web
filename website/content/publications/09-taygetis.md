@@ -1,6 +1,7 @@
 ---
 title: "Complete immature stages of the euptychiine butterfly Taygetis cleopatra (C. Felder & R. Felder, 1862) (Lepidoptera: Nymphalidae: Satyrinae) in southeastern Peru"
-url: "/publications/immature-stages-taygetis-cleopatra-peru"
+description: "Documents the complete life cycle of Taygetis cleopatra on the bamboo Olyra latifolia in Peru, validating species identity via DNA barcoding."
+url: "/publications/immature-stages-taygetis-cleopatra-peru/"
 number: 9
 date: 2021-12-17
 authors:
@@ -20,8 +21,10 @@ journal:
   startPage: 179
   endPage: 185
 image: "/assets/publications/9-Taygetis.jpg"
-paper_url: "https://journals.flvc.org/troplep/article/view/130140"
+paperUrl: "https://journals.flvc.org/troplep/article/view/130140"
 openAccess: true
+taxaNames:
+  - taygetis
 highlights:
   - "Documents the complete life cycle of ***Taygetis cleopatra*** in southeastern Peru."
   - "Identifies ***Olyra latifolia*** (Poaceae) as the natural host plant for the species."

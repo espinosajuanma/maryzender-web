@@ -1,6 +1,7 @@
 ---
 title: "Two new species of the Andean genera Leptopeltus Bernhauer and Leptopeltoides Chani-Posse & Asenjo (Coleoptera: Staphylinidae: Staphylininae) from the tropical Andes, with a new country record and an updated phylogeny"
-url: "/publications/phylogeny-new-species-leptopeltus-leptopeltoides-andes"
+description: "Describes Leptopeltus dieguezi and Leptopeltoides nilveri from the Peruvian Andes, confirming the latter's first country record via an updated morphological phylogeny."
+url: "/publications/new-species-leptopeltus-leptopeltoides/"
 number: 14
 date: 2024-08-30
 authors:
@@ -16,6 +17,9 @@ journal:
   endPage: 357
 image: "/assets/publications/14. Leptopeltus.jpg"
 doi: "10.11646/zootaxa.5501.2.7"
+taxaNames:
+  - leptopeltus
+  - leptopeltoides
 highlights:
   - "Two new rove beetle species are described from the Peruvian Andes."
   - "***Leptopeltoides nilveri*** marks the first record of its genus in Peru."

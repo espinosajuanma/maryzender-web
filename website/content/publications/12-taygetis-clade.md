@@ -1,6 +1,7 @@
 ---
 title: "Immature stages and new host plant records for three species in the “Taygetis clade” of Euptychiina in southeastern Peru (Lepidoptera: Nymphalidae: Satyrinae)"
-url: "/publications/immature-stages-host-plants-taygetis-clade-euptychiina"
+description: "Documents the life histories of Taygetis echo, T. sosis, and Pseudodebis valentina in Peru, identifying their specific bamboo host plants for the first time."
+url: "/publications/immature-stages-taygetis-clade-peru/"
 number: 12
 authors:
   - name: "Corahua-Espinoza, T."
@@ -26,6 +27,8 @@ journal:
 date: 2022-12-01
 doi: "10.1007/s13744-022-00998-z"
 image: "/assets/publications/12-Taygetis-clade.jpg"
+taxaNames:
+  - taygetis-clade
 highlights:
   - "Documents life history of ***Taygetis echo***, ***T. sosis***, and ***P. valentina***."
   - "***Taygetis echo*** larvae feed on herbaceous bamboo ***Olyra latifolia***."

@@ -1,6 +1,7 @@
 ---
 title: "A new Peruvian species of Megarthrus Curtis (Coleoptera: Staphylinidae: Proteininae)"
-url: "/publications/new-species-taxonomy-megarthrus-peru"
+description: "Describes Megarthrus wayqecha sp. nov. from Cuzco's high-altitude cloud forests, providing morphological diagnostics and the first COI barcode for a Peruvian species."
+url: "/publications/new-species-megarthrus-peru/"
 number: 5
 date: 2020-02-10
 authors:
@@ -17,6 +18,8 @@ journal:
   endPage: 588
 image: "/assets/publications/5-Megarthrus.jpg"
 doi: "10.11646/zootaxa.4731.4.11"
+taxaNames:
+  - megarthrus
 highlights:
   - "***Megarthrus wayqecha*** sp. nov. is described from Cuzco, Peru."
   - "Inhabits high-elevation cloud forests (2931–2950 m) in the Kosñipata valley."

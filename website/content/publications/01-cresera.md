@@ -1,6 +1,7 @@
 ---
 title: "El género Cresera Schaus, 1894 (Lepidoptera: Arctiinae) en el Perú: diversidad y patrones de distribución geográfica"
-url: "/publications/diversidad-distribucion-cresera-peru"
+description: "Records eight species of the genus Cresera in Peru, providing diagnostic wing characters and detailed geographic distribution maps for identification."
+url: "/publications/diversity-distribution-cresera-peru/"
 number: 1
 date: 2017-07-21
 authors:
@@ -18,6 +19,8 @@ journal:
 image: "/assets/publications/2-Cresera.jpg"
 doi: "10.15381/rpb.v24i2.13490"
 openAccess: true
+taxaNames:
+  - cresera
 highlights:
   - "Analyzes the diversity and distribution of the genus ***Cresera*** in Peru."
   - "Identifies 8 ***Cresera*** species occurring in Peru out of 12 known worldwide."

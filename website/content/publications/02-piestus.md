@@ -1,6 +1,7 @@
 ---
 title: "A new Peruvian species and new records of the genus Piestus Gravenhorst (Coleoptera: Staphylinidae)"
-url: "/publications/new-species-taxonomy-piestus-peru"
+description: "Describes Piestus chullachaqui sp. nov. from Cuzco and provides new distribution records for ten species, increasing the known Peruvian Piestus diversity to 21."
+url: "/publications/new-species-piestus-peru/"
 number: 2
 date: 2017-08-10
 authors:
@@ -17,6 +18,8 @@ journal:
   endPage: 426
 image: "/assets/publications/1-Piestus.jpg"
 doi: "10.11646/zootaxa.4303.3.7"
+taxaNames:
+  - piestus
 highlights:
   - "***Piestus chullachaqui*** sp. nov. is described from Cuzco, Peru."
   - "***Piestus fronticornis*** and ***Piestus longipennis*** are new records for Peru."

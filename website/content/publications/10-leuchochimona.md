@@ -1,6 +1,7 @@
 ---
 title: "Immature stages and new host plant record for Leucochimona hyphea (Cramer, 1776) (Lepidoptera: Riodinidae: Riodininae) in the Peruvian Amazon"
-url: "/publications/immature-stages-host-plant-leucochimona-hyphea"
+description: "Documents the first complete life cycle of Leucochimona hyphea, identifying Spermacoce latifolia as a new host and confirming the presence of ant organs."
+url: "/publications/immature-stages-leucochimona-hyphea-peru/"
 number: 10
 date: 2021-12-17
 authors:
@@ -19,8 +20,10 @@ journal:
   issue: 3
   startPage: 158
   endPage: 165
-paper_url: "https://journals.flvc.org/troplep/article/view/130138"
+paperUrl: "https://journals.flvc.org/troplep/article/view/130138"
 openAccess: true
+taxaNames:
+  - leucochimona
 highlights:
   - "First complete immature life cycle of ***Leucochimona hyphea*** is described."
   - "***Spermacoce latifolia*** (Rubiaceae) is identified as a new natural host plant."

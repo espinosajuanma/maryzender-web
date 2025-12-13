@@ -48,7 +48,7 @@
                 {{- if .Params.doi -}}
                     {{ $link = printf "https://doi.org/%s" .Params.doi }}
                 {{- else -}}
-                    {{- $link = .Params.paper_url -}}
+                    {{- $link = .Params.paperUrl -}}
                 {{- end -}}
                 {{- with $link -}}
                     <a href="{{ . }}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>

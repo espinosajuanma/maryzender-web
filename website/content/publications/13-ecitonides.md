@@ -1,6 +1,7 @@
 ---
 title: "A new species of Ecitonides Wasmann, 1894 (Coleoptera: Staphylinidae: Paederinae) from Peru and phylogenetic placement of the genus based on molecular data"
-url: "/publications/phylogenetic-placement-ecitonides-new-species-peru"
+description: "Describes Ecitonides constanceae sp. nov. from Peru and provides the first molecular phylogeny placing the genus in Medonina, sister to the termitophilous Ruptor."
+url: "/publications/new-species-ecitonides-peru/"
 number: 13
 date: 2023-09-18
 authors:
@@ -19,6 +20,8 @@ journal:
   endPage: 196
 image: "/assets/publications/13-Ecitonides.jpg"
 doi: "10.11646/zootaxa.5346.2.6"
+taxaNames:
+  - ecitonides
 highlights:
   - "***Ecitonides constanceae*** sp. nov. is described from Peru."
   - "First molecular phylogeny places ***Ecitonides*** in Medonina."

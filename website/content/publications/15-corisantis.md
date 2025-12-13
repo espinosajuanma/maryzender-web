@@ -1,6 +1,7 @@
 ---
 title: "Origin and early diversification of a high Andean rove-beetle clade: Corisantis gen. nov., phylogeny, and historical biogeography"
-url: "/publications/phylogeny-biogeography-corisantis-andean-clade"
+description: "Establishes the new Andean genus Corisantis with 14 species (nine new), identifying the South American Transition Zone as the center of its origin and diversification."
+url: "/publications/origin-diversification-corisantis/"
 number: 15
 date: 2024-11-24
 featured: true
@@ -16,11 +17,13 @@ journal:
   endPage: 416
 image: "/assets/publications/15. Corisantis.jpg"
 doi: "10.1016/j.jcz.2024.11.002"
+taxaNames:
+  - corisantis
 highlights:
   - "The new high Andean rove beetle genus ***Corisantis*** is described."
   - "Nine new species are described and five are transferred to the new genus."
   - "Phylogeny recovers ***Corisantis*** as sister to the genus ***Leptopeltoides***."
-  - "The South American Transition Zone is identified as the center of origin"
+  - "The South American Transition Zone is identified as the center of origin."
 ---
 
 #### Introduction

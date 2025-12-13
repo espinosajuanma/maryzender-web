@@ -1,6 +1,7 @@
 ---
 title: "Two new species of Homalotrichus Solier, 1849 (Coleoptera: Staphylinidae) from Peru"
-url: "/publications/new-species-taxonomy-homalotrichus-peru"
+description: "Confirms the genus presence in Peru by describing two new high-altitude species, Homalotrichus yana and H. shapra, from Andean wetlands."
+url: "/publications/new-species-homalotrichus-peru/"
 number: 3
 date: 2018-08-15
 authors:
@@ -17,6 +18,8 @@ journal:
   endPage: 386
 image: "/assets/publications/3-Homalotrichus.jpg"
 doi: "10.11646/zootaxa.4459.2.10"
+taxaNames:
+  - homalotrichus
 highlights:
   - "Confirms the presence of the genus ***Homalotrichus*** in Peru."
   - "Describes ***Homalotrichus yana*** sp. nov. and ***H. shapra*** sp. nov. from Peru."

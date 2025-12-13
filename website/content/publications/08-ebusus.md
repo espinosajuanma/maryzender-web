@@ -1,6 +1,7 @@
 ---
 title: "Immature stages of Ebusus ebusus ebusus (Cramer, 1780) in the Peruvian Amazon (Lepidoptera: Hesperiidae: Hesperiinae)"
-url: "/publications/immature-stages-ebusus-peruvian-amazon"
+description: "Documents the first complete life cycle of Ebusus ebusus ebusus in the Peruvian Amazon, identifying the palm Mauritia flexuosa as a new host plant."
+url: "/publications/immature-stages-ebusus-peru/"
 number: 8
 date: 2021-10-29
 authors:
@@ -21,8 +22,10 @@ journal:
   startPage: 90
   endPage: 95
 image: "/assets/publications/8-Ebusus.jpg"
-paper_url: "https://journals.flvc.org/troplep/article/view/129728"
+paperUrl: "https://journals.flvc.org/troplep/article/view/129728"
 openAccess: true
+taxaNames:
+  - ebusus
 highlights:
   - "Reports first complete immature life cycle of ***Ebusus ebusus ebusus***."
   - "Identifies ***Mauritia flexuosa*** (Arecaceae) as a new natural host plant."
