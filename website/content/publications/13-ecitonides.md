@@ -20,11 +20,11 @@ journal:
 image: "/assets/publications/13-Ecitonides.jpg"
 doi: "10.11646/zootaxa.5346.2.6"
 highlights:
-  - "Ecitonides constanceae sp. nov. is described from Peru."
-  - "First molecular phylogeny places Ecitonides in Medonina."
-  - "Myrmecophilous Ecitonides is sister to termitophilous Ruptor."
+  - "***Ecitonides constanceae*** sp. nov. is described from Peru."
+  - "First molecular phylogeny places ***Ecitonides*** in Medonina."
+  - "Myrmecophilous ***Ecitonides*** is sister to termitophilous ***Ruptor***."
   - "Study reveals unexpected link between ant and termite guests."
-  - "Includes a checklist of genus species and associated hosts"
+  - "Includes a checklist of genus species and associated hosts."
 ---
 
 #### Introduction

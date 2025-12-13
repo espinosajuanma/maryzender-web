@@ -18,9 +18,9 @@ image: "/assets/publications/16. Yuracarus.jpg"
 doi: "10.3897/asp.83.e150304"
 openAccess: true
 highlights:
-  - "The Andean genus Konradus is revised and Yuracarus gen. nov. is described."
+  - "The Andean genus ***Konradus*** is revised and ***Yuracarus*** gen. nov. is described."
   - "Five new species are described from the high Andes of Ecuador, Peru, and Bolivia."
-  - "Two ‘false Philonthus’ species are transferred to these genera."
+  - "Two ‘false ***Philonthus***’ species are transferred to these genera."
   - "Phylogeny reveals a new clade defined by modified protarsomeres."
 ---
 

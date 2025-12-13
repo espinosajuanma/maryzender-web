@@ -28,9 +28,9 @@ image: "/assets/publications/11-Cisandina.jpg"
 doi: "10.1093/isd/ixab028"
 openAccess: true
 highlights:
-  - "Establishes Cisandina, a new butterfly genus in subtribe Euptychiina."
-  - "Describes two new species: Cisandina esmeralda and C. castanya."
-  - "Revises taxonomy of polyphyletic Magneuptychia and Euptychoides."
+  - "Establishes ***Cisandina***, a new butterfly genus in subtribe Euptychiina."
+  - "Describes two new species: ***Cisandina esmeralda*** and ***C. castanya***."
+  - "Revises taxonomy of polyphyletic ***Magneuptychia*** and ***Euptychoides***."
   - "Multi-locus phylogeny validates the new genus and species placement."
 ---
 

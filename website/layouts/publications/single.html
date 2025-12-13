@@ -67,7 +67,7 @@
             <div style="padding-left: 2rem;">
                 {{ range .Params.Highlights }}
                 <div class="paper bg-white fit">
-                    {{ . }}
+                    {{ . | markdownify }}
                 </div>
                 {{ end }}
             </div>

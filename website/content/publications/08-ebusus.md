@@ -24,8 +24,8 @@ image: "/assets/publications/8-Ebusus.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/129728"
 openAccess: true
 highlights:
-  - "Reports first complete immature life cycle of Ebusus ebusus ebusus."
-  - "Identifies Mauritia flexuosa (Arecaceae) as a new natural host plant."
+  - "Reports first complete immature life cycle of ***Ebusus ebusus ebusus***."
+  - "Identifies ***Mauritia flexuosa*** (Arecaceae) as a new natural host plant."
   - "Provides illustrations of head capsules and pupal stages."
 ---
 

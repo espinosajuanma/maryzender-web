@@ -18,10 +18,10 @@ journal:
 image: "/assets/publications/1-Piestus.jpg"
 doi: "10.11646/zootaxa.4303.3.7"
 highlights:
-  - "Piestus chullachaqui sp. nov. is described from Cuzco, Peru."
-  - "Piestus fronticornis and Piestus longipennis are new records for Peru."
-  - "Provides new distribution records for ten Piestus species."
-  - "Total number of Peruvian Piestus species increases to 21."
+  - "***Piestus chullachaqui*** sp. nov. is described from Cuzco, Peru."
+  - "***Piestus fronticornis*** and ***Piestus longipennis*** are new records for Peru."
+  - "Provides new distribution records for ten ***Piestus*** species."
+  - "Total number of Peruvian ***Piestus*** species increases to 21."
 ---
 
 A **new species** of the genus ***Piestus*** Gravenhorst is described from Peru,

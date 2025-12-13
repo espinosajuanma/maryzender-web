@@ -18,8 +18,8 @@ image: "/assets/publications/14. Leptopeltus.jpg"
 doi: "10.11646/zootaxa.5501.2.7"
 highlights:
   - "Two new rove beetle species are described from the Peruvian Andes."
-  - "Leptopeltoides nilveri marks the first record of its genus in Peru."
-  - "Phylogeny confirms the placement of the new taxa in Leptopeltus and Leptopeltoides."
+  - "***Leptopeltoides nilveri*** marks the first record of its genus in Peru."
+  - "Phylogeny confirms the placement of the new taxa in ***Leptopeltus*** and ***Leptopeltoides***."
   - "Updated keys and distribution maps are provided for both Andean genera."
 ---
 

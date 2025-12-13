@@ -19,11 +19,11 @@ image: "/assets/publications/2-Cresera.jpg"
 doi: "10.15381/rpb.v24i2.13490"
 openAccess: true
 highlights:
-  - "Analyzes the diversity and distribution of the genus Cresera in Peru."
-  - "Identifies 8 Cresera species occurring in Peru out of 12 known worldwide."
+  - "Analyzes the diversity and distribution of the genus ***Cresera*** in Peru."
+  - "Identifies 8 ***Cresera*** species occurring in Peru out of 12 known worldwide."
   - "Provides diagnostic wing coloration characters for species recognition."
   - "Maps geographic distribution patterns based on 449 specimen records."
-  - "Suggests Cresera diversity peaks around 600 m elevation."
+  - "Suggests ***Cresera*** diversity peaks around 600 m elevation."
 ---
 
 The genus ***Cresera*** Schaus, 1894 consists of **12 species**, **8 of which

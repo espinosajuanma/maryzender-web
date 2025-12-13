@@ -23,8 +23,8 @@ image: "/assets/publications/9-Taygetis.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/130140"
 openAccess: true
 highlights:
-  - "Documents the complete life cycle of Taygetis cleopatra in southeastern Peru."
-  - "Identifies Olyra latifolia (Poaceae) as the natural host plant for the species."
+  - "Documents the complete life cycle of ***Taygetis cleopatra*** in southeastern Peru."
+  - "Identifies ***Olyra latifolia*** (Poaceae) as the natural host plant for the species."
   - "Validates partial life history data previously recorded in Ecuador."
   - "Confirms species identity via DNA barcoding to exclude cryptic taxa."
   - "Notes spatula-like setae on first instar as a potential clade synapomorphy."

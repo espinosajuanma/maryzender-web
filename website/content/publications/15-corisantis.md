@@ -16,9 +16,9 @@ journal:
 image: "/assets/publications/15. Corisantis.jpg"
 doi: "10.1016/j.jcz.2024.11.002"
 highlights:
-  - "The new high Andean rove beetle genus Corisantis is described."
+  - "The new high Andean rove beetle genus ***Corisantis*** is described."
   - "Nine new species are described and five are transferred to the new genus."
-  - "Phylogeny recovers Corisantis as sister to the genus Leptopeltoides."
+  - "Phylogeny recovers ***Corisantis*** as sister to the genus ***Leptopeltoides***."
   - "The South American Transition Zone is identified as the center of origin"
 ---
 

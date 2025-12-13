@@ -22,8 +22,8 @@ journal:
 paper_url: "https://journals.flvc.org/troplep/article/view/130138"
 openAccess: true
 highlights:
-  - "First complete immature life cycle of Leucochimona hyphea is described."
-  - "Spermacoce latifolia (Rubiaceae) is identified as a new natural host plant."
+  - "First complete immature life cycle of ***Leucochimona hyphea*** is described."
+  - "***Spermacoce latifolia*** (Rubiaceae) is identified as a new natural host plant."
   - "Ant organs (TNOs) found on larvae despite lack of observed ant association."
   - "Study contributes to knowledge of Mesosemiina life histories in Peru."
 ---

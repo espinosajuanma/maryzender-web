@@ -23,9 +23,9 @@ image: "/assets/publications/7-Chloreuptychia.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/129729"
 openAccess: true
 highlights:
-  - "Documents the complete life cycle of Chloreuptychia marica for the first time."
-  - "Identifies Pariana lunata (Poaceae) as the natural host plant in Peru."
-  - "Provides the first complete immature life history for the \"Archeuptychia clade.\""
+  - "Documents the complete life cycle of ***Chloreuptychia marica*** for the first time."
+  - "Identifies ***Pariana lunata*** (Poaceae) as the natural host plant in Peru."
+  - "Provides the first complete immature life history for the \"***Archeuptychia*** clade.\""
   - "Illustrates all life stages including head capsules of first and third instars."
 ---
 

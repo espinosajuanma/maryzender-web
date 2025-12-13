@@ -18,11 +18,11 @@ image: "/assets/publications/6-Ophionthus.jpg"
 doi: "10.5852/ejt.2021.735.1237"
 openAccess: true
 highlights:
-  - "Redescribes the rare genus Ophionthus and type species O. serpentinus."
-  - "Ophionthus asenjoi sp. nov. is described from Northern Peru."
-  - "Phylogeny validates Ophionthus as a distinct genus in Paederomimus complex."
-  - "Confirms Ophionthus belongs to the Neotropical Philonthina lineage."
-  - "Provides precise distribution data for the rare type species O. serpentinus."
+  - "Redescribes the rare genus ***Ophionthus*** and type species ***O. serpentinus***."
+  - "***Ophionthus asenjoi*** sp. nov. is described from Northern Peru."
+  - "Phylogeny validates ***Ophionthus*** as a distinct genus in ***Paederomimus*** complex."
+  - "Confirms ***Ophionthus*** belongs to the Neotropical Philonthina lineage."
+  - "Provides precise distribution data for the rare type species ***O. serpentinus***."
 ---
 
 #### Introduction

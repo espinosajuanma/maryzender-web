@@ -27,11 +27,11 @@ date: 2022-12-01
 doi: "10.1007/s13744-022-00998-z"
 image: "/assets/publications/12-Taygetis-clade.jpg"
 highlights:
-  - "Documents life history of Taygetis echo, T. sosis, and P. valentina."
-  - "Taygetis echo larvae feed on herbaceous bamboo Olyra latifolia."
-  - "Taygetis sosis larvae feed on herbaceous bamboo Pariana lunata."
-  - "Pseudodebis valentina utilizes woody bamboo Guadua weberbaueri."
-  - "First reliable descriptions of immatures for T. echo and T. sosis"
+  - "Documents life history of ***Taygetis echo***, ***T. sosis***, and ***P. valentina***."
+  - "***Taygetis echo*** larvae feed on herbaceous bamboo ***Olyra latifolia***."
+  - "***Taygetis sosis*** larvae feed on herbaceous bamboo ***Pariana lunata***."
+  - "***Pseudodebis valentina*** utilizes woody bamboo ***Guadua weberbaueri***."
+  - "First reliable descriptions of immatures for ***T. echo*** and ***T. sosis***."
 ---
 
 #### Introduction

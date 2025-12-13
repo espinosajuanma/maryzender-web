@@ -18,10 +18,10 @@ journal:
 image: "/assets/publications/3-Homalotrichus.jpg"
 doi: "10.11646/zootaxa.4459.2.10"
 highlights:
-  - "Confirms the presence of the genus Homalotrichus in Peru."
-  - "Describes Homalotrichus yana sp. nov. and H. shapra sp. nov. from Peru."
-  - "Homalotrichus yana is recorded from high Andean wetlands (bofedales)."
-  - "Updates the genus Homalotrichus to include nine valid species."
+  - "Confirms the presence of the genus ***Homalotrichus*** in Peru."
+  - "Describes ***Homalotrichus yana*** sp. nov. and ***H. shapra*** sp. nov. from Peru."
+  - "***Homalotrichus yana*** is recorded from high Andean wetlands (bofedales)."
+  - "Updates the genus ***Homalotrichus*** to include nine valid species."
 ---
 
 Two **new species** of ***Homalotrichus*** Solier, 1849 are described from the

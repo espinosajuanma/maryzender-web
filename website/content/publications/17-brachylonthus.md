@@ -19,9 +19,9 @@ doi: "10.1071/IS24104"
 image: "/assets/publications/17-Brachylonthus.jpg"
 openAccess: false
 highlights:
-  - "Two new flightless rove beetle genera are described: Andinolonthus and Brachylonthus."
+  - "Two new flightless rove beetle genera are described: ***Andinolonthus*** and ***Brachylonthus***."
   - "Analysis reveals flight was lost and subsequently regained."
-  - "Atopocentrum mirabile is confirmed as brachypterous."
+  - "***Atopocentrum mirabile*** is confirmed as brachypterous."
   - "The new taxa belong to the high-altitude Andean clade." 
 ---
 
