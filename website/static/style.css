@@ -1,6 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Special+Elite&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/lora-v37-latin-regular.woff2') format('woff2');
+    font-display: swap;
+}
 
-* {
+@font-face {
+    font-family: 'Special Elite';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/special-elite-v20-latin-regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/homemade-apple-v24-latin-regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+:root {
+    /* Colors */
     --terracotta: #ff6d53;
     --moss: #7d9b6f;
     --soil: #dbc8a0;
@@ -8,16 +31,18 @@
     --paper: #e0dbc8;
     --white: #ffffff;
     --bone: #fdfdfd;
-    --typewriting: 'Special Elite', 'Courier New', Courier, monospace ;
-    --font: 'Lora', 'Arial', sans-serif;
+
+    /* FONTS */
+    --typewriting: 'Special Elite', 'Courier New', monospace;
+    --font: 'Lora', 'Georgia', serif;
     --handwriting: 'Homemade Apple', cursive;
 }
 
 body {
     font-family: var(--font) !important;
-    padding: 0px;
-    margin: 0px;
     background-color: var(--paper) !important;
+    margin: 0;
+    padding: 0;
 }
 
 .typewriting {
