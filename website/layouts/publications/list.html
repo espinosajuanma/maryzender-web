@@ -3,11 +3,6 @@
         {{ .Title }}
     </h1>
 
-    <div id="alert" class="paper bg-white fit">
-        <p>Please contact me for copies of any of my publications</p>
-        <p><a class="tag bg-terracotta typewriting fit" href="/contact">Contact me</a></p>
-    </div>
-
     <div id="publications-list" class="my-4">
         {{- range .Pages.GroupByDate "2006" -}}
         <h2 class="tag bg-terracotta typewriting title2 fit my-4">
