@@ -1,12 +1,12 @@
 {{ define "main" }}
 <!-- Title -->
-<div id="title">
+<section id="title">
     <h2 class="typewriting">Maryzender Rodríguez-Melgarejo, Ph.D. (c)</h2>
     <h4>Evolutionary biologist</h4>
-</div>
+</section>
 
 <!-- About Me Section -->
-<div id="about-me" class="mb-4">
+<section id="about-me" class="mb-4">
     <div class="tag bg-moss typewriting title2 fit">
         About me
     </div>
@@ -40,16 +40,14 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
 <!-- Ongoing Projects Section -->
-<div id="ongoing-projects" class="mb-4">
-    <div class="tag bg-moss typewriting title2 fit">
-        Ongoing projects
-    </div>
+<section id="ongoing-projects" class="">
+    <h2 class="tag bg-moss typewriting fit" style="font-size: 1.5rem;">Ongoing projects</h2>
 
-    <div class="row mt-3 align-items-center">
+    <div class="row mt-3">
         <div class="col-md-8">
             <div class="paper bg-white fit mb-3">The <strong>systematics of Neotropical and Andean</strong>
                 rove-beetles</div>
@@ -63,30 +61,24 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<!-- Fieldwork - CTA: Check publications -->
-<div id="fieldwork-section" class="mb-4">
+<section id="selected-publications" class="mb-4">
     <div class="tag bg-moss typewriting title2 fit">
-        Fieldwork
+        Selected Publications
     </div>
-    <div class="row mt-3 align-items-center">
-        <div class="col-md-3 text-center mb-3 mb-md-0">
-            <img src="/assets/Peru_1.jpg" alt="Fieldwork in Peru" class="img-fluid img-shadow"
-                style="max-height: 250px;">
+    <div>
+        {{ $featured := where .Site.RegularPages "Params.featured" true | first 3 }}
+        <div class="d-flex flex-column gap-3">
+            {{ range $featured }}
+                {{- partial "publication-card.html" . -}}
+            {{ end }}
         </div>
-        <div class="col-md-6 text-center mb-3 mb-md-0">
-            <div class="paper bg-white typewriting">
-                <p>Discover how fieldwork turns into knowledge-explore my published research</p>
-                <p>
-                    <a href="/publications" class="tag bg-terracotta fit typewriting">Publications</a>
-                </p>
-            </div>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="/assets/Peru_2.jpg" alt="Fieldwork in the Andes" class="img-fluid img-shadow"
-                style="max-height: 250px;">
+        <div class="text-end mt-1">
+            <a href="/publications" class="tag bg-moss fit typewriting">View all publications</a>
         </div>
     </div>
-</div>
+
+
+</section>
 {{ end }}

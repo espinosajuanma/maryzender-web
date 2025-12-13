@@ -3,6 +3,7 @@ title: "Systematics and phylogeny of the Andean genera Konradus Chani-Posse & Ra
 url: "/publications/systematics-phylogeny-konradus-yuracarus"
 number: 16
 date: 2025-07-21
+featured: true
 authors:
   - name: "Chani-Posse, M.R."
     firstAuthor: true
