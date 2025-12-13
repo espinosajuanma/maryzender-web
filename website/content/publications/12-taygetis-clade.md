@@ -2,7 +2,21 @@
 title: "Immature stages and new host plant records for three species in the “Taygetis clade” of Euptychiina in southeastern Peru (Lepidoptera: Nymphalidae: Satyrinae)"
 url: "/publications/immature-stages-host-plants-taygetis-clade-euptychiina"
 number: 12
-authors: "Corahua-Espinoza, T.; Nakahara, S.; Baine, Q.; Kabir, J.; _Rodríguez-Melgarejo, M._; Tejeira, R.; Ccahuana, R.; See, J.;Soto-Quispe, J.; Wood, H.; Escalante, Z. & Gallice, G."
+authors:
+  - name: "Corahua-Espinoza, T."
+    firstAuthor: true
+  - name: "Nakahara, S."
+  - name: "Baine, Q."
+  - name: "Kabir, J."
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
+  - name: "Tejeira, R."
+  - name: "Ccahuana, R."
+  - name: "See, J."
+  - name: "Soto-Quispe, J."
+  - name: "Wood, H."
+  - name: "Escalante, Z."
+  - name: "Gallice, G."
 journal: "Neotropical Entomology, 52(1), 67–80."
 date: 2022-12-01
 doi: "10.1007/s13744-022-00998-z"

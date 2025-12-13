@@ -3,7 +3,12 @@ title: "Systematics and phylogeny of the Andean genera Konradus Chani-Posse & Ra
 url: "/publications/systematics-phylogeny-konradus-yuracarus"
 number: 16
 date: 2025-07-21
-authors: "Chani-Posse, M.R.; _Rodríguez-Melgarejo, M.E._ & Ramírez-Salamanca, J.M."
+authors:
+  - name: "Chani-Posse, M.R."
+    firstAuthor: true
+  - name: "Rodríguez-Melgarejo, M.E."
+    me: true
+  - name: "Ramírez-Salamanca, J.M."
 journal: "Arthropod Systematics and Phylogeny, 83, 331–352."
 image: "/assets/publications/16. Yuracarus.jpg"
 doi: "10.3897/asp.83.e150304"

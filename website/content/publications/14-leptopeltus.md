@@ -3,7 +3,11 @@ title: "Two new species of the Andean genera Leptopeltus Bernhauer and Leptopelt
 url: "/publications/phylogeny-new-species-leptopeltus-leptopeltoides-andes"
 number: 14
 date: 2024-08-30
-authors: "_Rodríguez-Melgarejo, M._ & Chani-Posse, M."
+authors:
+  - name: "Rodríguez-Melgarejo, M."
+    firstAuthor: true
+    me: true
+  - name: "Chani-Posse, M."
 journal: "Zootaxa, 5501(2), 345–357."
 image: "/assets/publications/14. Leptopeltus.jpg"
 doi: "10.11646/zootaxa.5501.2.7"

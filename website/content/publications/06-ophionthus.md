@@ -3,7 +3,11 @@ title: "On the rare Neotropical genus Ophionthus Bernhauer (Coleoptera: Staphyli
 url: "/publications/redescription-new-species-ophionthus-neotropical"
 number: 6
 date: 2021-02-16
-authors: "_Rodríguez-Melgarejo, M._ & Chani-Posse, M."
+authors:
+  - name: "Rodríguez-Melgarejo, M."
+    firstAuthor: true
+    me: true
+  - name: "Chani-Posse, M."
 journal: "European Journal of Taxonomy, 735: 15–33."
 image: "/assets/publications/6-Ophionthus.jpg"
 doi: "10.5852/ejt.2021.735.1237"

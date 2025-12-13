@@ -3,7 +3,21 @@ title: "Systematic revision of a new butterfly genus, Cisandina Nakahara & Espel
 url: "/publications/systematic-revision-cisandina-butterfly-genus"
 number: 11
 date: 2022-01-06
-authors: "Nakahara, S.; _Rodríguez-Melgarejo, M._, Kleckner, K.; Espeland, M.; Casagrande, M., Barbosa, E.; See, J., Tejeira, R.; Gallice, G., Corahua, T.; Lamas, G. & Willmott, K."
+authors:
+  - name: "Nakahara, S."
+    firstAuthor: true
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
+  - name: "Kleckner, K."
+  - name: "Espeland, M."
+  - name: "Casagrande, M."
+  - name: "Barbosa, E."
+  - name: "See, J."
+  - name: "Tejeira, R."
+  - name: "Gallice, G."
+  - name: "Corahua, T."
+  - name: "Lamas, G."
+  - name: "Willmott, K."
 journal: "Insect Systematics and Diversity, 6(1), 21–30."
 image: "/assets/publications/11-Cisandina.jpg"
 doi: "10.1093/isd/ixab028"

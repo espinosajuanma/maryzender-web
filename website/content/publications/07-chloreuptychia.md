@@ -3,7 +3,16 @@ title: "Immature stages of Chloreuptychia marica (Weymer, 1911) (Lepidoptera: Ny
 url: "/publications/immature-stages-chloreuptychia-marica"
 number: 7
 date: 2021-10-29
-authors: "Tejeira, R.; Ccahuana, R.; Hurtado, T.; Nakahara S.; See, J.; _Rodríguez-Melgarejo, M._ & Gallice, G."
+authors:
+  - name: "Tejeira, R."
+    firstAuthor: true
+  - name: "Ccahuana, R."
+  - name: "Hurtado, T."
+  - name: "Nakahara, S."
+  - name: "See, J."
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
+  - name: "Gallice, G."
 journal: "Tropical Lepidoptera Research, 31(2), 96–100."
 image: "/assets/publications/7-Chloreuptychia.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/129729"

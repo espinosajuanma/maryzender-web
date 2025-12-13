@@ -3,7 +3,11 @@ title: "Origin and early diversification of a high Andean rove-beetle clade: Cor
 url: "/publications/phylogeny-biogeography-corisantis-andean-clade"
 number: 15
 date: 2024-11-24
-authors: "Chani-Posse, M. & _Rodríguez-Melgarejo, M._"
+authors:
+  - name: "Chani-Posse, M."
+    firstAuthor: true
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
 journal: "Zoologischer Anzeiger, 313, 395–416."
 image: "/assets/publications/15. Corisantis.jpg"
 doi: "10.1016/j.jcz.2024.11.002"

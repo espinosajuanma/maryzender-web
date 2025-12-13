@@ -3,7 +3,12 @@ title: "Integrative systematics reveals new brachypterous genera and sheds light
 url: "/publications/integrative-systematics-philonthina-brachylonthus-andinolonthus-wing-evolution"
 number: 17
 date: 2025-11-17
-authors: "_Rodríguez-Melgarejo, M.E._; Ramírez-Salamanca, J.M. & Chani-Posse, M.R."
+authors:
+  - name: "Rodríguez-Melgarejo, M.E."
+    firstAuthor: true
+    me: true
+  - name: "Ramírez-Salamanca, J.M."
+  - name: "Chani-Posse, M.R."
 journal: "Invertebrate Systematics, 39(11), 1-25."
 doi: "10.1071/IS24104"
 image: "/assets/publications/17-Brachylonthus.jpg"

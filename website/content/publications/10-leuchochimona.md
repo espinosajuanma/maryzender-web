@@ -3,7 +3,15 @@ title: "Immature stages and new host plant record for Leucochimona hyphea (Crame
 url: "/publications/immature-stages-host-plant-leucochimona-hyphea"
 number: 10
 date: 2021-12-17
-authors: "Ccahuana, R.; Corahua-Espinoza, T.; Nakahara, S.; Tejeira, R.; _Rodríguez-Melgarejo, M._ & Gallice, G."
+authors:
+  - name: "Ccahuana, R."
+    firstAuthor: true
+  - name: "Corahua-Espinoza, T."
+  - name: "Nakahara, S."
+  - name: "Tejeira, R."
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
+  - name: "Gallice, G."
 image: "/assets/publications/10-Leuchochimona.jpg"
 journal: "Tropical Lepidoptera Research, 31(3), 158–165."
 paper_url: "https://journals.flvc.org/troplep/article/view/130138"

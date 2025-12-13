@@ -3,7 +3,12 @@ title: "Two new species of Homalotrichus Solier, 1849 (Coleoptera: Staphylinidae
 url: "/publications/new-species-taxonomy-homalotrichus-peru"
 number: 3
 date: 2018-08-15
-authors: "Pérez, L.; _Rodríguez, M._ & Asenjo, A."
+authors:
+  - name: "Pérez, L."
+    firstAuthor: true
+  - name: "Rodríguez, M."
+    me: true
+  - name: "Asenjo, A."
 journal: "Zootaxa, 4459(2), 376–386."
 image: "/assets/publications/3-Homalotrichus.jpg"
 doi: "10.11646/zootaxa.4459.2.10"

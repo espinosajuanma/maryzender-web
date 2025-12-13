@@ -3,7 +3,12 @@ title: "El género Cresera Schaus, 1894 (Lepidoptera: Arctiinae) en el Perú: di
 url: "/publications/diversidad-distribucion-cresera-peru"
 number: 1
 date: 2017-07-21
-authors: "Grados, J.; _Rodríguez, M._ & Ramírez, J."
+authors:
+  - name: "Grados, J."
+    firstAuthor: true
+  - name: "Rodríguez, M."
+    me: true
+  - name: "Ramírez, J."
 journal: "Revista Peruana de Biología, 24(2), 127–138."
 image: "/assets/publications/2-Cresera.jpg"
 doi: "10.15381/rpb.v24i2.13490"

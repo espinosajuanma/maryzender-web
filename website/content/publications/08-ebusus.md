@@ -3,7 +3,17 @@ title: "Immature stages of Ebusus ebusus ebusus (Cramer, 1780) in the Peruvian A
 url: "/publications/immature-stages-ebusus-peruvian-amazon"
 number: 8
 date: 2021-10-29
-authors: "Ccahuana, R.; Tejeira, R. Hurtado, T.; Nakahara S.; _Rodríguez-Melgarejo, M._; Gott, R.; See, J. & Gallice, G."
+authors:
+  - name: "Ccahuana, R."
+    firstAuthor: true
+  - name: "Tejeira, R."
+  - name: "Hurtado, T."
+  - name: "Nakahara, S."
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
+  - name: "Gott, R."
+  - name: "See, J."
+  - name: "Gallice, G."
 journal: "Tropical Lepidoptera Research, 31(2), 90–95."
 image: "/assets/publications/8-Ebusus.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/129728"

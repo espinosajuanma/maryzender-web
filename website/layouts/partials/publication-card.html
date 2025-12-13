@@ -9,8 +9,23 @@
             <h3 class="typewriting" style="font-size: 1.1rem;">
                 <span>{{ .Params.Number }}.</span> {{ .Title }}
             </h3>
-            <p class="mb-1"><strong>Authors:</strong> 
-                {{- .Params.authors | replaceRE "_([^_]+)_" "<span class=\"highlight-blue\">$1</span>" | safeHTML -}}
+            <p class="mb-1"><strong>Authors: </strong>
+            {{- range $index, $author := .Params.authors -}}
+                {{- if gt $index 0 -}}
+                {{- if eq $index (sub (len $.Params.authors) 1) -}}
+                    &nbsp;&amp;&nbsp;
+                {{- else -}}
+                    ;&nbsp;
+                {{- end -}}
+                {{- end -}}
+
+                {{- /* If 'me: true' is in the YAML, apply the span */ -}}
+                {{- if .me -}}
+                <span class="highlight-blue">{{ .name }}</span>
+                {{- else -}}
+                {{ .name }}
+                {{- end -}}
+            {{- end -}}
             </p>
             <p class="mb-1"><strong>Journal:</strong> {{ .Params.journal }}</p>
             <p class="mb-2"><strong>Date:</strong>

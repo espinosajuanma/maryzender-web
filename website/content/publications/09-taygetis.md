@@ -3,7 +3,16 @@ title: "Complete immature stages of the euptychiine butterfly Taygetis cleopatra
 url: "/publications/immature-stages-taygetis-cleopatra-peru"
 number: 9
 date: 2021-12-17
-authors: "Hurtado, T.; Nakahara, S.; _Rodríguez-Melgarejo, M_; Tejeira, R.; See, J.; Ccahuana, R. & Gallice, G."
+authors:
+  - name: "Hurtado, T."
+    firstAuthor: true
+  - name: "Nakahara, S."
+  - name: "Rodríguez-Melgarejo, M."
+    me: true
+  - name: "Tejeira, R."
+  - name: "See, J."
+  - name: "Ccahuana, R."
+  - name: "Gallice, G."
 journal: "Tropical Lepidoptera Research, 31(3), 179–185."
 image: "/assets/publications/9-Taygetis.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/130140"
