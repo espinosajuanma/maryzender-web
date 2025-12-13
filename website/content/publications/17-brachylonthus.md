@@ -9,7 +9,12 @@ authors:
     me: true
   - name: "Ramírez-Salamanca, J.M."
   - name: "Chani-Posse, M.R."
-journal: "Invertebrate Systematics, 39(11), 1-25."
+journal:
+  name: "Invertebrate Systematics"
+  volumen: 39
+  issue: 11
+  startPage: 1
+  endPage: 25
 doi: "10.1071/IS24104"
 image: "/assets/publications/17-Brachylonthus.jpg"
 openAccess: false

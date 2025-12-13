@@ -13,7 +13,12 @@ authors:
   - name: "See, J."
   - name: "Ccahuana, R."
   - name: "Gallice, G."
-journal: "Tropical Lepidoptera Research, 31(3), 179–185."
+journal:
+  name: "Tropical Lepidoptera Research"
+  volumen: 31
+  issue: 3
+  startPage: 179
+  endPage: 185
 image: "/assets/publications/9-Taygetis.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/130140"
 openAccess: true

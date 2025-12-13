@@ -13,7 +13,12 @@ authors:
   - name: "Rodríguez-Melgarejo, M."
     me: true
   - name: "Gallice, G."
-journal: "Tropical Lepidoptera Research, 31(2), 96–100."
+journal:
+  name: "Tropical Lepidoptera Research"
+  volumen: 31
+  issue: 2
+  startPage: 96
+  endPage: 100
 image: "/assets/publications/7-Chloreuptychia.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/129729"
 openAccess: true

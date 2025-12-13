@@ -8,7 +8,12 @@ authors:
     firstAuthor: true
     me: true
   - name: "Chani-Posse, M."
-journal: "Zootaxa, 5501(2), 345–357."
+journal:
+  name: "Zootaxa"
+  volumen: 5501
+  issue: 2
+  startPage: 345
+  endPage: 357
 image: "/assets/publications/14. Leptopeltus.jpg"
 doi: "10.11646/zootaxa.5501.2.7"
 highlights:

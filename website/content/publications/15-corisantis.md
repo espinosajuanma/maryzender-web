@@ -8,7 +8,11 @@ authors:
     firstAuthor: true
   - name: "Rodríguez-Melgarejo, M."
     me: true
-journal: "Zoologischer Anzeiger, 313, 395–416."
+journal:
+  name: "Zoologischer Anzeiger"
+  volumen: 313
+  startPage: 395
+  endPage: 416
 image: "/assets/publications/15. Corisantis.jpg"
 doi: "10.1016/j.jcz.2024.11.002"
 highlights:

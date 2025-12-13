@@ -9,7 +9,12 @@ authors:
   - name: "Rodríguez, M."
     me: true
   - name: "Asenjo, A."
-journal: "Zootaxa, 4303(3), 417-426."
+journal:
+  name: "Zootaxa"
+  volumen: 4303
+  issue: 3
+  startPage: 417
+  endPage: 426
 image: "/assets/publications/1-Piestus.jpg"
 doi: "10.11646/zootaxa.4303.3.7"
 highlights:

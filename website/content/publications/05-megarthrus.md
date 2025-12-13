@@ -9,7 +9,12 @@ authors:
   - name: "Rodríguez, M."
     me: true
   - name: "Asenjo, A."
-journal: "Zootaxa, 4731(4), 581–588."
+journal:
+  name: "Zootaxa"
+  volumen: 4731
+  issue: 4
+  startPage: 581
+  endPage: 588
 image: "/assets/publications/5-Megarthrus.jpg"
 doi: "10.11646/zootaxa.4731.4.11"
 highlights:

@@ -11,7 +11,12 @@ authors:
   - name: "Matsumoto, K."
   - name: "Wasel, S."
   - name: "Piper, R."
-journal: "Zootaxa, 5346(2), 186–196."
+journal:
+  name: "Zootaxa"
+  volumen: 5346
+  issue: 2
+  startPage: 186
+  endPage: 196
 image: "/assets/publications/13-Ecitonides.jpg"
 doi: "10.11646/zootaxa.5346.2.6"
 highlights:

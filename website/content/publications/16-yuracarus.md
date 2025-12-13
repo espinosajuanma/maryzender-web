@@ -9,7 +9,11 @@ authors:
   - name: "Rodríguez-Melgarejo, M.E."
     me: true
   - name: "Ramírez-Salamanca, J.M."
-journal: "Arthropod Systematics and Phylogeny, 83, 331–352."
+journal:
+  name: "Arthropod Systematics and Phylogeny"
+  volumen: 83
+  startPage: 331
+  endPage: 352
 image: "/assets/publications/16. Yuracarus.jpg"
 doi: "10.3897/asp.83.e150304"
 openAccess: true

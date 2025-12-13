@@ -9,7 +9,12 @@ authors:
   - name: "Rodríguez, M."
     me: true
   - name: "Ramírez, J."
-journal: "Revista Peruana de Biología, 24(2), 127–138."
+journal:
+  name: "Revista Peruana de Biología"
+  volumen: 24
+  issue: 2
+  startPage: 127
+  endPage: 138
 image: "/assets/publications/2-Cresera.jpg"
 doi: "10.15381/rpb.v24i2.13490"
 openAccess: true

@@ -17,7 +17,12 @@ authors:
   - name: "Wood, H."
   - name: "Escalante, Z."
   - name: "Gallice, G."
-journal: "Neotropical Entomology, 52(1), 67–80."
+journal:
+  name: "Neotropical Entomology"
+  volumen: 52
+  issue: 1
+  startPage: 67
+  endPage: 80
 date: 2022-12-01
 doi: "10.1007/s13744-022-00998-z"
 image: "/assets/publications/12-Taygetis-clade.jpg"

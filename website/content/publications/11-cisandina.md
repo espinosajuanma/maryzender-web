@@ -18,7 +18,12 @@ authors:
   - name: "Corahua, T."
   - name: "Lamas, G."
   - name: "Willmott, K."
-journal: "Insect Systematics and Diversity, 6(1), 21–30."
+journal:
+  name: "Insect Systematics and Diversity"
+  volumen: 6
+  issue: 1
+  startPage: 21
+  endPage: 30
 image: "/assets/publications/11-Cisandina.jpg"
 doi: "10.1093/isd/ixab028"
 openAccess: true

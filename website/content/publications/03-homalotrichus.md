@@ -9,7 +9,12 @@ authors:
   - name: "Rodríguez, M."
     me: true
   - name: "Asenjo, A."
-journal: "Zootaxa, 4459(2), 376–386."
+journal:
+  name: "Zootaxa"
+  volumen: 4459
+  issue: 2
+  startPage: 376
+  endPage: 386
 image: "/assets/publications/3-Homalotrichus.jpg"
 doi: "10.11646/zootaxa.4459.2.10"
 highlights:

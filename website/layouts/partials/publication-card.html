@@ -27,7 +27,17 @@
                 {{- end -}}
             {{- end -}}
             </p>
-            <p class="mb-1"><strong>Journal:</strong> {{ .Params.journal }}</p>
+            <p class="mb-1"><strong>Journal:</strong>
+                {{ with .Params.journal }}
+                <span>{{- .name -}}, {{ .volumen }}
+                    {{- if .issue -}}({{ .issue }}){{- end -}}
+                    {{- if or .startPage .endPage -}}, {{ end -}}
+                    {{- .startPage -}}
+                    {{- if .endPage -}}–{{ .endPage }}{{- end -}}
+                    .
+                </span>
+                {{ end }}
+            </p>
             <p class="mb-2"><strong>Date:</strong>
                 <time datetime="{{- .Date.Format "2006-01-02" -}}">{{- .Date.Format "January 2, 2006" -}}</time>
             </p>

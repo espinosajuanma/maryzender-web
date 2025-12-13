@@ -13,7 +13,12 @@ authors:
     me: true
   - name: "Gallice, G."
 image: "/assets/publications/10-Leuchochimona.jpg"
-journal: "Tropical Lepidoptera Research, 31(3), 158–165."
+journal:
+  name: "Tropical Lepidoptera Research"
+  volumen: 31
+  issue: 3
+  startPage: 158
+  endPage: 165
 paper_url: "https://journals.flvc.org/troplep/article/view/130138"
 openAccess: true
 highlights:

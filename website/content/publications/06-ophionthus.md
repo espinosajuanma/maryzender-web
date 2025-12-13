@@ -8,7 +8,12 @@ authors:
     firstAuthor: true
     me: true
   - name: "Chani-Posse, M."
-journal: "European Journal of Taxonomy, 735: 15–33."
+journal:
+  name: "European Journal of Taxonomy"
+  volumen: 735
+  issue: 15
+  startPage: 15
+  endPage: 33
 image: "/assets/publications/6-Ophionthus.jpg"
 doi: "10.5852/ejt.2021.735.1237"
 openAccess: true

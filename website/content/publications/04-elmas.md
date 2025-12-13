@@ -9,7 +9,12 @@ authors:
     me: true
   - name: "Asenjo, A."
   - name: "Pérez, L."
-journal: "Zootaxa, 4608 (3), 572–578."
+journal:
+  name: "Zootaxa"
+  volumen: 4608
+  issue: 3
+  startPage: 572
+  endPage: 578
 image: "/assets/publications/4-Elmas.jpg"
 doi: "10.11646/zootaxa.4608.3.10"
 highlights:

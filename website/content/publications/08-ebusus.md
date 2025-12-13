@@ -14,7 +14,12 @@ authors:
   - name: "Gott, R."
   - name: "See, J."
   - name: "Gallice, G."
-journal: "Tropical Lepidoptera Research, 31(2), 90–95."
+journal:
+  name: "Tropical Lepidoptera Research"
+  volumen: 31
+  issue: 2
+  startPage: 90
+  endPage: 95
 image: "/assets/publications/8-Ebusus.jpg"
 paper_url: "https://journals.flvc.org/troplep/article/view/129728"
 openAccess: true
