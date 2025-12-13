@@ -19,7 +19,6 @@
                 {{- end -}}
                 {{- end -}}
 
-                {{- /* If 'me: true' is in the YAML, apply the span */ -}}
                 {{- if .me -}}
                 <span class="highlight-blue">{{ .name }}</span>
                 {{- else -}}
@@ -43,9 +42,7 @@
             </p>
 
             <div>
-                {{ if not (.Scratch.Get "is_single") }}
-                    <a href="{{ .RelPermalink }}" class="tag bg-soil fit typewriting">View More</a>
-                {{ end }}
+                <a href="{{ .RelPermalink }}" class="tag bg-soil fit typewriting">View More</a>
 
                 {{- $link := "" -}}
                 {{- if .Params.doi -}}

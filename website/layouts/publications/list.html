@@ -14,8 +14,6 @@
             {{ .Key }}
         </h2>
         {{- range .Pages -}}
-                {{ .Scratch.Set "is_single" false }}
-
                 {{- partial "publication-card.html" . false -}}
             {{- end }}
         {{- end }}
