@@ -1,0 +1,5 @@
+{{- $text := .Get "text" | default .Page.Permalink -}}
+{{- $alt := .Get "alt" | default (printf "QR code for %s" $text) -}}
+<div class="paper bg-white fit">
+    <img src="https://quickchart.io/qr?text={{ $text }}" alt="{{ $alt }}">
+</div>

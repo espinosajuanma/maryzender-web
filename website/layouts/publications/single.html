@@ -1,0 +1,100 @@
+{{ define "main" }}
+    <article class="align-items-center">
+
+        <h3 class="tag bg-moss typewriting fit">Publication</h3>
+        <h1 class="paper bg-white typewriting" style="font-size: 1.5rem;">
+            <span>{{ .Params.Number }}.</span> {{ .Title }}
+        </h1>
+
+        <div class="row" style="margin-bottom: 2rem;">
+            <div class="col-md-3 text-center mb-3 mb-md-0">
+                <img src="{{ .Params.image }}" class="img-fluid paper-shadow" style="max-height: 180px;" alt="{{ if .Params.image_alt }}{{ .Params.image_alt }}{{ else }}Publication image for {{ .Title }}{{ end }}">
+            </div>
+            <div class="col-md-9">
+                <div class="paper bg-white">
+                    <p class="mb-1"><strong>Authors: </strong>
+                    {{- range $index, $author := .Params.authors -}}
+                        {{- if gt $index 0 -}}
+                        {{- if eq $index (sub (len $.Params.authors) 1) -}}
+                            &nbsp;&amp;&nbsp;
+                        {{- else -}}
+                            ;&nbsp;
+                        {{- end -}}
+                        {{- end -}}
+
+                        {{- if .me -}}
+                        <span class="highlight-blue">{{ .name }}</span>
+                        {{- else -}}
+                        {{ .name }}
+                        {{- end -}}
+                    {{- end -}}
+                    </p>
+                    <p class="mb-1"><strong>Journal:</strong>
+                        {{ with .Params.journal }}
+                        <span>{{- .name -}}, {{ .volumen }}
+                            {{- if .issue -}}({{ .issue }}){{- end -}}
+                            {{- if or .startPage .endPage -}}, {{ end -}}
+                            {{- .startPage -}}
+                            {{- if .endPage -}}–{{ .endPage }}{{- end -}}
+                            .
+                        </span>
+                        {{ end }}
+                    </p>
+                    <p class="mb-2"><strong>Date:</strong>
+                        <time datetime="{{- .Date.Format "2006-01-02" -}}">{{- .Date.Format "January 2, 2006" -}}</time>
+                    </p>
+                    <div class="mb-3">
+                        {{- $link := "" -}}
+                        {{- if .Params.doi -}}
+                            {{ $link = printf "https://doi.org/%s" .Params.doi }}
+                        {{- else -}}
+                            {{- $link = .Params.paperUrl -}}
+                        {{- end -}}
+                        {{- with $link -}}
+                            <a href="{{ . }}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
+                        {{- end -}}
+                        {{- if .Params.openAccess -}}
+                            <span class="paper bg-moss fit typewriting">Open Access</span>
+                        {{- end -}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ if .Params.Highlights }}
+        <div style="margin-bottom: 2rem;">
+            <h3 class="tag bg-moss typewriting fit">Highlights</h3>
+            <div style="padding-left: 2rem;">
+                {{ range .Params.Highlights }}
+                <div class="paper bg-white fit">
+                    {{ . | markdownify }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+
+        {{ if .Content }}
+        <h3 class="tag bg-moss typewriting fit">Abstract</h3>
+        <div class="paper bg-white">
+            <div class="content-body">
+                {{ .Content }}
+            </div>
+            <div class="mt-4">
+                {{- $link := "" -}}
+                {{- if .Params.doi -}}
+                {{ $link = printf "https://doi.org/%s" .Params.doi }}
+                {{- else -}}
+                {{- $link = .Params.paperUrl -}}
+                {{- end -}}
+            </div>
+        </div>
+        {{ end }}
+    </article>
+
+    <div class="mt-5">
+        <a href="{{ "/publications/" | relURL }}" class="tag bg-moss fit typewriting">
+            Back to Publications
+        </a>
+    </div>
+{{ end }}

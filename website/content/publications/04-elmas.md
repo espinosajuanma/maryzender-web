@@ -1,0 +1,34 @@
+---
+title: "A new Peruvian species and new records of the genus Elmas Blackwelder (Coleoptera: Staphylinidae)"
+description: "Describes Elmas gorky sp. nov. from Madre de Dios, Peru, and provides new distribution records for three other species, bringing the genus total to 21."
+url: "/publications/new-species-elmas-peru/"
+number: 4
+date: 2019-05-21
+authors:
+  - name: "Rodríguez, M."
+    firstAuthor: true
+    me: true
+  - name: "Asenjo, A."
+  - name: "Pérez, L."
+journal:
+  name: "Zootaxa"
+  volumen: 4608
+  issue: 3
+  startPage: 572
+  endPage: 578
+image: "/assets/publications/4-Elmas.jpg"
+doi: "10.11646/zootaxa.4608.3.10"
+taxaNames:
+  - elmas
+highlights:
+  - "***Elmas gorky*** sp. nov. is described from Madre de Dios, Peru."
+  - "Discovery brings the total number of ***Elmas*** species to 21."
+  - "New records presented for ***E. gigas***, ***E. lescheni***, and ***E. strigella***."
+---
+
+***Elmas gorky*** Rodríguez et al. **new species**, is described from the
+department of Madre de Dios in southeastern Peru.
+**Major diagnostic features** are photographed and illustrated.
+**New records are provided** for ***Elmas gigas*** Ashe & Chatzimanolis,
+***Elmas lescheni*** Ashe & Chatzimanolis and ***Elmas strigella***
+(Bernhauer).

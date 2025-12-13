@@ -1,0 +1,84 @@
+{{ define "main" }}
+<!-- Title -->
+<section id="title">
+    <h2 class="typewriting">Maryzender Rodríguez-Melgarejo, Ph.D. (c)</h2>
+    <h4>Evolutionary biologist</h4>
+</section>
+
+<!-- About Me Section -->
+<section id="about-me" class="mb-4">
+    <div class="tag bg-moss typewriting title2 fit">
+        About me
+    </div>
+    <div class="row mt-3 align-items-center">
+        <div class="col-lg-3 col-md-4 text-center">
+            <figure class="profile-image-wrapper">
+                <img class="paper" width="200" src="/assets/mary.jpg" alt="Maryzender Rodríguez Melgarejo">
+                <div class="tag bg-terracotta fit handwriting inner-border profile-name-tag">Maryzender</div>
+            </figure>
+        </div>
+        <div class="col-lg-9 col-md-8">
+            <div class="paper bg-white">
+                <p>
+                    I am a <span class="highlight-blue">zoologist and evolutionary biologist</span> currently
+                    undertaking a PhD at the Universidad Nacional de La Plata (Argentina), with research based at
+                    the Laboratory of Entomology of Argentine Dryland Research Institute (IADIZA, CCT CONICET
+                    Mendoza).
+                </p>
+                <p>
+                    My research centres on the <span class="highlight-blue">systematics and taxonomy</span> of <span
+                        class="highlight-blue">Neotropical and Andean rove-beetles (Coleoptera:
+                        Staphylinidae)</span>, integrating field trips, morphology, molecular biology, and
+                    phylogenetic analysis to investigate their evolutionary relationships and species diversity.
+                </p>
+                <p>
+                    <a href="https://drive.google.com/file/d/19_nazylUptjuFcMnoUrUYcy1RnLcFEDl/view?usp=sharing"
+                        target="_blank" class="tag bg-soil typewriting fit">
+                        Download CV
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Ongoing Projects Section -->
+<section id="ongoing-projects" class="">
+    <h2 class="tag bg-moss typewriting fit" style="font-size: 1.5rem;">Ongoing projects</h2>
+
+    <div class="row mt-3">
+        <div class="col-md-8">
+            <div class="paper bg-white fit mb-3">The <strong>systematics of Neotropical and Andean</strong>
+                rove-beetles</div>
+            <div class="paper bg-white fit">The evolution of the <strong>myrmecophily and termitophily</strong> in
+                the <strong>Neotropical Philonthina rove-beetles</strong>, which is the focus of my PhD thesis</div>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <div class="plate paper bg-white fit mx-auto">
+                <img class="img-shadow" width="100" src="/assets/Philonthina.png" alt="Philonthina rove-beetle">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="selected-publications" class="mb-4">
+    <div class="tag bg-moss typewriting title2 fit">
+        Selected Publications
+    </div>
+    <div>
+        {{ $featured := where .Site.RegularPages "Params.featured" true | first 3 }}
+        <div class="d-flex flex-column gap-3">
+            {{ range $featured }}
+                {{- partial "publication-card.html" . -}}
+            {{ end }}
+        </div>
+        <div class="text-end mt-1">
+            <a href="/publications" class="tag bg-moss fit typewriting">View all publications</a>
+        </div>
+    </div>
+
+
+</section>
+{{ end }}

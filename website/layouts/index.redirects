@@ -1,0 +1,10 @@
+# Netlify Redirects
+{{- range where .Site.RegularPages "Section" "publications" -}}
+  {{- $target := .Params.url -}}
+
+  {{- with .Params.taxaNames -}}
+    {{- range . -}}
+      {{- printf "\n/publications/%s  %s  301" (. | urlize) $target -}}
+    {{- end -}}
+  {{- end -}}
+{{- end }}

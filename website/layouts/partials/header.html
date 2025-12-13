@@ -1,0 +1,16 @@
+<nav class="mb-3">
+    <div id="logo">
+        <a href="/" class="tag bg-terracotta typewriting inner-border fit">Maryzender</a>
+    </div>
+
+    <div id="menu">
+        {{ $currentPage := . -}}
+        {{ range .Site.Menus.main -}}
+        {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+        <a class="tag typewriting fit {{ if $isActive }}bg-terracotta{{ else }}bg-white{{ end }}"
+            href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+        {{ end -}}
+    </div>
+</nav>

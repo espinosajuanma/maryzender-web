@@ -1,0 +1,15 @@
+{{- define "response" -}}
+{
+    "publications": [
+        {{- range $index, $e := .Pages -}}
+        {{- if $index -}}, {{- end -}}
+        {
+            "slug": "{{ .File.ContentBaseName }}",
+            "title": {{ .Title | jsonify }},
+            "openAccess": {{ if .Params.openAccess }}true{{ else }}false{{ end }}
+        }
+        {{- end -}}
+    ]
+}
+{{- end -}}
+{{- template "response" . -}}

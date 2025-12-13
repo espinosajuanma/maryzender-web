@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <h1 class="tag bg-moss typewriting title2 fit">
+        {{ .Title }}
+    </h1>
+
+    <div id="publications-list" class="my-4">
+        {{- range .Pages.GroupByDate "2006" -}}
+        <h2 class="tag bg-terracotta typewriting title2 fit my-4">
+            {{ .Key }}
+        </h2>
+        {{- range .Pages -}}
+                {{- partial "publication-card.html" . -}}
+            {{- end }}
+        {{- end }}
+    </div>
+{{ end }}

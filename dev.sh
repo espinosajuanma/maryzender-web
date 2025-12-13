@@ -1,3 +1,2 @@
 #!/bin/bash
-
-hugo serve --gc --minify -s ./src
+hugo serve --gc --minify -s ./website
