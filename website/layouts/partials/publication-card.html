@@ -46,17 +46,8 @@
             <div>
                 <a href="{{ .RelPermalink }}" class="tag bg-soil fit typewriting">View More</a>
 
-                {{- $link := "" -}}
-                {{- if .Params.doi -}}
-                    {{ $link = printf "https://doi.org/%s" .Params.doi }}
-                {{- else -}}
-                    {{- $link = .Params.paperUrl -}}
-                {{- end -}}
-                {{- with $link -}}
-                    <a href="{{ . }}" target="_blank" class="tag bg-soil fit typewriting">Read Paper</a>
-                {{- end -}}
                 {{- if .Params.openAccess -}}
-                    <!-- <span class="paper bg-moss fit typewriting">Open Access</span> -->
+                    <span class="paper bg-moss fit typewriting">Open Access</span>
                 {{- end -}}
             </div>
         </div>
