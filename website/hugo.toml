@@ -3,8 +3,9 @@ languageCode = 'en-us'
 title = 'Maryzender Rodríguez-Melgarejo'
 
 [params]
-  description = "Academic portfolio of Maryzender Rodríguez-Melgarejo, Ph.D. candidate and Evolutionary Biologist specializing in the systematics and taxonomy of Neotropical Staphylinidae."
+  description = "Research portfolio of Maryzender Rodríguez-Melgarejo. Systematics and evolution of high Andean and Neotropical rove beetles (Staphylinidae)"
   author = "Maryzender Rodríguez-Melgarejo"
+  defaultImage= "/assets/mary.jpg"
 
 [taxonomies]
   # Empty block disables default tag/category generation

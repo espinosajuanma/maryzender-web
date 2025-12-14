@@ -1,0 +1,41 @@
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+{{- $ogTitle := "" -}}
+{{- if .IsHome -}}
+  {{- $ogTitle = printf "%s | Evolutionary Biologist" .Site.Title -}}
+{{- else if .Params.seoTitle -}}
+  {{- $ogTitle = .Params.seoTitle -}}
+{{- else -}}
+  {{- $ogTitle = printf "%s | %s" .Title .Site.Title -}}
+{{- end -}}
+<meta property="og:title" content="{{ $ogTitle }}">
+
+{{- $desc := "" -}}
+{{- if .Params.description -}}
+  {{- $desc = .Params.description -}}
+{{- else if .Summary -}}
+  {{- $desc = .Summary -}}
+{{- else -}}
+  {{- $desc = .Site.Params.description -}}
+{{- end -}}
+<meta property="og:description" content="{{ $desc }}">
+
+{{- $img := "" -}}
+{{- if .Params.image -}}
+  {{- $img = .Params.image | absURL -}}
+{{- else if .Site.Params.defaultImage -}}
+  {{- $img = .Site.Params.defaultImage | absURL -}}
+{{- end -}}
+
+{{- if $img -}}
+  <meta property="og:image" content="{{ $img }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ $img }}">
+{{- else -}}
+  <meta name="twitter:card" content="summary">
+{{- end -}}
+
+<meta name="twitter:title" content="{{ $ogTitle }}">
+<meta name="twitter:description" content="{{ $desc }}">
