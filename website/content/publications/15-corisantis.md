@@ -4,7 +4,7 @@ description: "Establishes the new Andean genus Corisantis with 14 species (nine 
 url: "/publications/origin-diversification-corisantis/"
 number: 15
 date: 2024-11-24
-featured: true
+featured: false
 authors:
   - name: "Chani-Posse, M."
     firstAuthor: true
