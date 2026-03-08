@@ -1,0 +1,3 @@
+{{- $text := .Get "text" | default "" -}}
+{{- $color := .Get "color" | default "blue" -}}
+<span class="highlight-{{ $color }}">{{ $text }}</span>
