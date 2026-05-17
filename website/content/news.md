@@ -1,6 +1,6 @@
 ---
 title: "News"
-description: ""
+"description: "Follow my latest updates in entomology research, including newly published papers in taxonomy and systematics, international talks, and field expeditions."
 layout: "news"
 ---
 
