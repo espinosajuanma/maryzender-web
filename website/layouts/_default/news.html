@@ -1,54 +1,14 @@
 {{ define "main" }}
-<!-- Title -->
-<section id="title">
-    <h1 class="typewriting">Maryzender Rodríguez-Melgarejo, Ph.D. (c)</h1>
-    <h4>Evolutionary biologist</h4>
-</section>
-
-<!-- About Me Section -->
-<section id="about-me" class="mb-4">
     <div class="tag bg-moss typewriting title2 fit">
-        About me
+        {{ .Title }}
     </div>
-    <div class="row mt-3 align-items-center">
-        <div class="col-lg-3 col-md-4 text-center">
-            <figure class="profile-image-wrapper">
-                <img class="paper" width="200" src="/assets/mary.jpg" alt="Maryzender Rodríguez Melgarejo">
-                <div class="tag bg-terracotta fit handwriting inner-border profile-name-tag">Maryzender</div>
-            </figure>
-        </div>
-        <div class="col-lg-9 col-md-8">
-            <div class="paper bg-white">
-                {{ .Content }}
-            </div>
-        </div>
-    </div>
-</section>
 
-<section id="selected-publications" class="mb-4">
-    <div class="tag bg-moss typewriting title2 fit">
-        Featured Publications
-    </div>
-    <div>
-        {{ $featured := where .Site.RegularPages "Params.featured" true | first 3 }}
-        <div class="d-flex flex-column gap-3">
-            {{ range $featured }}
-                {{- partial "publication-card.html" . -}}
-            {{ end }}
-        </div>
-        <div class="d-flex justify-content-end mt-2">
-            <a href="/publications/" class="tag bg-moss typewriting fit">View all publications</a>
-        </div>
-    </div>
-</section>
-
-<section id="news" class="mb-4">
-    <div class="tag bg-moss typewriting title2 fit">
-        News
+    <div class="paper bg-white mb-4">
+        {{ .Content }}
     </div>
 
     <div class="row mt-3">
-        {{ range first 9 (sort site.Data.news "date" "desc") }}
+        {{ range (sort site.Data.news "date" "desc") }}
             {{ if .description }}
                 <div class="col-md-4 mb-3 d-flex">
                         {{ if .featured }}
@@ -81,8 +41,9 @@
         {{ end }}
     </div>
 
-    <div class="d-flex justify-content-end mt-2">
-        <a href="/news/" class="tag bg-moss typewriting fit">See all news</a>
+    <div class="d-flex justify-content-end mt-5">
+        <a href="{{ "/" | relURL }}" class="tag bg-moss fit typewriting">
+            Back to Home
+        </a>
     </div>
-</section>
 {{ end }}
