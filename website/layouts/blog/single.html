@@ -1,0 +1,32 @@
+{{ define "main" }}
+    <article class="align-items-center">
+
+        <h3 class="tag bg-moss typewriting fit">Blog post</h3>
+        <h1 class="paper bg-white typewriting" style="font-size: 1.5rem;">
+            {{ .Params.Title }}
+        </h1>
+
+        <div class="row" style="margin-bottom: 2rem;">
+            <div class="col-md-9">
+                <div class="paper bg-white">
+                    <p class="mb-1"><strong>Author: {{ .Params.author }}</strong></p>
+                    <p class="mb-2"><strong>Date:</strong>
+                        <time datetime="{{- .Date.Format "2006-01-02" -}}">{{- .Date.Format "January 2, 2006" -}}</time>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="paper bg-white mb-3">
+            {{ if .Content }}
+                {{ .Content }}
+            {{ end }}
+        </div>
+    </article>
+
+    <div class="d-flex justify-content-end mt-5">
+        <a href="{{ "/publications/" | relURL }}" class="tag bg-moss fit typewriting">
+            Back to Publications
+        </a>
+    </div>
+{{ end }}

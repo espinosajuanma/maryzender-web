@@ -22,9 +22,14 @@ title = 'Maryzender Rodríguez-Melgarejo'
     weight = 20
 
   [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog/"
+    weight = 30
+
+  [[menus.main]]
     name = "Contact"
     pageRef = "/contact/"
-    weight = 30
+    weight = 40
 
 [mediaTypes]
   [mediaTypes."text/netlify"]

@@ -2,7 +2,7 @@
 title: "La recta final del PhD: Estrategias de supervivencia para redactar y entregar la tesis"
 date: 2026-05-17
 lastmod: 2026-05-17
-publishDate: 2026-06-29
+publishDate: 2026-05-17
 picture: "example.jpg"
 ---
 
@@ -61,5 +61,3 @@ Enviar el manuscrito final o presionar el botón de entrega genera un pico de ad
 Llegar al final de este largo camino es, ante todo, un acto de gran resistencia y una reafirmación de tu vocación. La tesis que finalmente se entrega a la facultad no es solo un compendio riguroso de datos, análisis y e hipótesis aceptadas o rechazadas. Es es la síntesis de los últimos años de ensayo y error, de aprender y desaprender, de manejar la frustación y celebrar los éxitos y fracasos.
 
 Cuando el cansancio de las últimas semanas nuble el panorama, te invito a mirar atrás y ver todo lo que has construído. También te invito a apoyarte en esa red afectiva y profesional que te ha acompañado en todo el camino: tus colegas de laboratorio, tu familia elegida y la compañía incondicional de quienes sostuvieron tu ánimo en casa. Espero que estos consejos te sean útiles como los fueron para mi. Ahora te toca dar el último paso, confiar en tu criterio científico y cerrar este gran ciclo. ¡Mucho éxito en la recta final!
-
----
