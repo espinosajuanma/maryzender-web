@@ -9,5 +9,3 @@ I am a peruvian {{< highlight text="evolutionary biologist" >}} currently undert
 My research centers on the {{< highlight text="systematics and taxonomy" >}} of {{< highlight text="Neotropical and Andean rove beetles" >}} (Coleoptera: Staphylinidae). I integrate fieldwork, morphology, molecular biology, and phylogenetic analysis to investigate their evolutionary relationships and species diversity.
 
 My PhD thesis investigates the evolution of {{< highlight text="myrmecophily and termitophily" >}} in the {{< highlight text="Neotropical Philonthina" >}} rove beetles.
-
-{{< cv >}}
