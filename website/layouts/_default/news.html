@@ -13,13 +13,13 @@
                 <div class="col-md-4 mb-3 d-flex">
                         {{ if .featured }}
                             <div class="paper bg-soil w-100 d-flex flex-column p-3">
-                            <h6 class="paper fit typewriting bg-mustard">{{ time.Format "01/02/2006" .date }}</h6>
+                            <h6 class="paper fit typewriting bg-mustard">{{ time.Format "02/01/2006" .date }}</h6>
                         {{ else if .special }}
                             <div class="paper bg-soil w-100 d-flex flex-column p-3">
-                            <h6 class="paper fit typewriting bg-white">{{ time.Format "01/02/2006" .date }}</h6>
+                            <h6 class="paper fit typewriting bg-white">{{ time.Format "02/01/2006" .date }}</h6>
                         {{ else }}
                             <div class="paper bg-white w-100 d-flex flex-column p-3">
-                            <h6 class="paper fit typewriting bg-mustard">{{ time.Format "01/02/2006" .date }}</h6>
+                            <h6 class="paper fit typewriting bg-mustard">{{ time.Format "02/01/2006" .date }}</h6>
                         {{ end }}
                         <div class="flex-grow-1">
                             {{ if .special }}
