@@ -1,7 +1,7 @@
 {{ define "main" }}
 <!-- Title -->
 <section id="title">
-    <h1 class="typewriting">Maryzender Rodríguez-Melgarejo, Ph.D. (c)</h1>
+    <h1 class="typewriting">Maryzender Rodríguez-Melgarejo, Ph.D.</h1>
     <h4>Evolutionary biologist</h4>
 </section>
 
@@ -55,17 +55,17 @@
                             <div class="paper bg-soil w-100 d-flex flex-column p-3">
                             <h6 class="paper fit typewriting bg-mustard">{{ time.Format "02/01/2006" .date }}</h6>
                         {{ else if .special }}
-                            <div class="paper bg-soil w-100 d-flex flex-column p-3">
-                            <h6 class="paper fit typewriting bg-white">{{ time.Format "02/01/2006" .date }}</h6>
+                            <div class="paper bg-moss w-100 d-flex flex-column p-3">
+                            <h6 class="paper fit typewriting bg-mustard">{{ time.Format "02/01/2006" .date }}</h6>
                         {{ else }}
                             <div class="paper bg-white w-100 d-flex flex-column p-3">
                             <h6 class="paper fit typewriting bg-mustard">{{ time.Format "02/01/2006" .date }}</h6>
                         {{ end }}
                         <div class="flex-grow-1">
                             {{ if .special }}
-                                <p><strong>{{ .description | markdownify }}</strong></p>
+                                <p class="bold">{{ .description | markdownify }}</p>
                             {{ else }}
-                            <p>{{ .description | markdownify }}</p>
+                                <p>{{ .description | markdownify }}</p>
                             {{ end }}
                         </div>
                         {{ if .url }}
