@@ -63,6 +63,10 @@ hr {
     margin: 1em 0 !important;
 }
 
+.bold {
+    font-weight: bold !important;
+}
+
 .container {
     max-width: 65rem !important;
     margin: auto;
